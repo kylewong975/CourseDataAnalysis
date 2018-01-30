@@ -1,19 +1,18 @@
-import json
+'''
+TODOs:
+Classes that are seminars, tutorials, labs should consider ALL sections
+Separate upper division vs lower division analysis
+'''
+
+import json, sys
 from pprint import pprint
 
-with open('Fall2017.json', 'r') as json_data:
+with open(sys.argv[1], 'r') as json_data:
 	d = json.load(json_data)
 
 # a dictionary with mapping from a subject (e.g., COM SCI) to a list of class 
 # sizes
 subjectClassSizes = {}
-
-for courses in d:
-	subject = courses["fields"]["subject"]
-	if subject in subjectClassSizes:
-		subjectClassSizes[subject].append(100)
-	else:
-		subjectClassSizes[subject] = [100]
 
 # To find class size, extract the last occurrence of number right before |*|
 # This is because:
@@ -28,14 +27,39 @@ for courses in d:
 # Edge Cases: 
 # 	Lecture only, no discussion, so no |*| delimiter
 # 	Classes that are "Closed by Dept"
-# for courses in d:
-#	status = courses["fields"]["statuses"]
+# 	Classes that are "Cancelled"
+def findClassSize(status):
+	classSize = 0
+	# Class is open
+	if status.find("Open") != -1:
+		delim = status.find("Left")
+		numIndex = status.rfind(" ", 0, delim - 2)
+		classSize = int(status[numIndex+1:delim-1])
+	# Class is full (closed)
+	elif status.find("Closed Class Full") != -1:
+		delimL = status.find("(")
+		delimR = status.find(")")
+		classSize = int(status[delimL+1:delimR])
+	return classSize
 
+# Putting it all together
+for courses in d:
+	subject = courses["fields"]["subject"]
+	status = courses["fields"]["statuses"]
+	classSize = findClassSize(status)
+	# Class size of 0 means that it fails the string parsing of status,
+	# indicating that it is either closed by dept or cancelled, so ignore 
+	# such class status in our data analysis
+	if classSize == 0:
+		continue
+	if subject in subjectClassSizes:
+		subjectClassSizes[subject].append(classSize)
+	else:
+		subjectClassSizes[subject] = [classSize]
 
-pprint(subjectClassSizes)
+# pprint(subjectClassSizes)
 
 # Convert python results back to json file
-'''
-with open('Fall2017-Subject-ClassSize.json', 'w') as outfile:
-	json.dump(d, outfile);
-'''
+with open(sys.argv[2], 'w') as outfile:
+	json.dump(subjectClassSizes, outfile)
+	outfile.write("\n")
