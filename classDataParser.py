@@ -35,6 +35,8 @@ def findClassSize(status):
 		delim = status.find("Left")
 		numIndex = status.rfind(" ", 0, delim - 2)
 		classSize = int(status[numIndex+1:delim-1])
+	elif status.find("Closed by Dept"):
+		return -1
 	# Class is full (closed)
 	elif status.find("Closed Class Full") != -1:
 		delimL = status.find("(")
@@ -47,10 +49,10 @@ for courses in d:
 	subject = courses["fields"]["subject"]
 	status = courses["fields"]["statuses"]
 	classSize = findClassSize(status)
-	# Class size of 0 means that it fails the string parsing of status,
+	# Class size of < 0 means that it fails the string parsing of status,
 	# indicating that it is either closed by dept or cancelled, so ignore 
 	# such class status in our data analysis
-	if classSize == 0:
+	if classSize <= 0:
 		continue
 	if subject in subjectClassSizes:
 		subjectClassSizes[subject].append(classSize)
