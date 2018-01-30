@@ -14,6 +14,41 @@ with open(sys.argv[1], 'r') as json_data:
 # sizes
 subjectClassSizes = {}
 
+# Determine if the class is lower division (1-99), upper division
+# (100-199), graduate (200-299), teacher training (300-399), professional
+# courses (400-499), or individual study and research (500-599)
+# Edge cases: 
+# 	If the course is multiple listed (M before number)
+# 	Some courses are C### e.g., C127
+#	Some courses are Writing II (W after number)
+# 	Course series (e.g., Math 32A, 32B, 33A, ...)
+def findClassType(course):
+	end = course.find("-") - 1
+	start = course.rfind(" ", 0, end - 1)
+	val = course[start+1:end]
+	courseNum = filter(lambda x: x.isdigit(), val)
+	# lower division
+	if courseNum >= 1 and courseNum <= 99:
+		return "lower"
+	# upper division
+	elif courseNum >= 100 and courseNum <= 199:
+		return "upper"
+	# graduate courses
+	elif courseNum >= 200 and courseNum <= 299:
+		return "grad"
+	# teacher training
+	elif courseNum >= 300 and courseNum <= 399:
+		return "teach"
+	# professional courses
+	elif courseNum >= 400 and courseNum <= 499:
+		return "prof"
+	# individual study and research
+	elif courseNum >= 500 and courseNum <= 599:
+		return "indiv"
+	# invalid course number
+	else:
+		return "invalid"
+
 # To find class size, extract the last occurrence of number right before |*|
 # This is because:
 # 	A lecture will be the total number of spots for a given class
@@ -48,6 +83,7 @@ def findClassSize(status):
 for courses in d:
 	subject = courses["fields"]["subject"]
 	status = courses["fields"]["statuses"]
+	course = courses["pk"]
 	classSize = findClassSize(status)
 	# Class size of < 0 means that it fails the string parsing of status,
 	# indicating that it is either closed by dept or cancelled, so ignore 
