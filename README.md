@@ -14,6 +14,8 @@ output JSON file. `./analyze.sh [inputFile] [outputFile]`
   - If you choose to run the python script directly, you can run it using: `python classDataParser.py` or `python3 
   classDataParser.py` passing your input JSON file and output JSON file as parameters. However, I recommend using the shell 
   script since I formatted the input JSON file slightly differently, temporarily, to accomodate json.load() in python.
+- To get the average class size per subject, also run `python average.py [inputFile] [outputFile]` or 
+`python3 average.py [inputFile] [outputFile]`
 
 ### Files
 - `classDataParser.py`: This Python script parses the course list JSON file and produces a JSON output with relevant 
