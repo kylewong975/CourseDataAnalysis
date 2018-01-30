@@ -22,7 +22,7 @@ subjectClassSizes = {}
 # 	Some courses are C### e.g., C127
 #	Some courses are Writing II (W after number)
 # 	Course series (e.g., Math 32A, 32B, 33A, ...)
-def findClassType(course):
+def findClassLevel(course):
 	end = course.find("-") - 1
 	start = course.rfind(" ", 0, end - 1)
 	val = course[start+1:end]
@@ -48,6 +48,22 @@ def findClassType(course):
 	# invalid course number
 	else:
 		return "invalid"
+
+# Determine if the class is a regular lecture, laboratory, seminar, etc
+def findClassType(section):
+	# lecture
+	if section.find("Lec") != -1:
+		return "lecture"
+	elif section.find("Lab") != -1:
+		return "lab"
+	elif section.find("Sem") != -1:
+		return "seminar"
+	elif section.find("Tut") != -1:
+		return "tutorial"
+	else:
+		return "unknown"
+
+
 
 # To find class size, extract the last occurrence of number right before |*|
 # This is because:
@@ -84,6 +100,7 @@ for courses in d:
 	subject = courses["fields"]["subject"]
 	status = courses["fields"]["statuses"]
 	course = courses["pk"]
+	section = courses["fields"]["sections"]
 	classSize = findClassSize(status)
 	# Class size of < 0 means that it fails the string parsing of status,
 	# indicating that it is either closed by dept or cancelled, so ignore 
