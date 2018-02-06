@@ -11,10 +11,15 @@ for line in f:
 # class size
 output_contents = []
 subjectClassSizes = {}
+subjectDiscussionSizes = {}
+
+lineNum = 1
 
 # For each subject, there exists a list of class sizes. Loop through the 
 # list and calculate the average of that list
 for line in json_objs:
+	if lineNum > 2:
+		break
 	for subject in line:
 		for attr in line[subject]:
 			classSizes = line[subject][attr]
@@ -29,6 +34,29 @@ for line in json_objs:
 				subjectClassSizes[subject][attr] = total * 1.0 / numClasses
 	output_contents.append(subjectClassSizes)
 	subjectClassSizes = {}
+	lineNum += 1
+# For discussion section, similar logic but different JSON structure
+lineNum = 1
+for line in json_objs:
+	if lineNum <= 2:
+		lineNum += 1
+		continue
+	elif lineNum > 3:
+		break
+	for subject in line:
+		discussionSizes = line[subject]["discussionSizes"]
+		total = 0
+		numDiscussions = 0
+		for discussionSize in discussionSizes:
+			total += discussionSize
+			numDiscussions += 1
+		if numDiscussions != 0 and total != 0:
+			if subject not in subjectDiscussionSizes:
+				subjectDiscussionSizes[subject] = {}
+			subjectDiscussionSizes[subject]["discussionSize"] = total * 1.0 / numDiscussions
+	output_contents.append(subjectDiscussionSizes)
+	subjectDiscussionSizes = {}
+	lineNum += 1
 
 # Convert python results back to json file
 with open(sys.argv[2], 'w') as outfile:

@@ -9,6 +9,14 @@ with open(sys.argv[1], 'r') as json_data:
 subjectClassSizes = {}
 # class sizes based on type (seminar, lecture, etc)
 subjectClassSizes_type = {}
+# a dictionary with mapping from a subject (e.g., COM SCI) to a list of 
+# discussion sizes
+'''
+subject
+	numDiscussions
+	discussionSizes
+'''
+subjectDiscussionSizes = {}
 
 # Extract course number from course name
 def getCourseNumber(course):
@@ -65,6 +73,23 @@ def findClassType(section):
 	else:
 		return "unknown"
 
+# Find the number of discussions and discussion sizes of the class in a 
+# given subject
+def findDiscussions(subject, section, status):
+	if(findClassSize(status) <= 0):
+		return
+	# discussion section sizes can be trivially found by dividing lecture size
+	# by number of discussions, but for robustness, return the list
+	# discussion section statuses similar to classes, use findClassSize logic
+	discussions = status.split("|*|")[1:] # the delimiter, omit lecture element
+	for discussion in discussions:
+		if(findClassSize(discussion) <= 0):
+			continue
+		subjectDiscussionSizes[subject]["numDiscussions"] += 1
+		subjectDiscussionSizes[subject]["discussionSizes"].append(findClassSize(discussion))
+
+
+
 # To find class size, extract the last occurrence of number right before |*|
 # This is because:
 # 	A lecture will be the total number of spots for a given class
@@ -95,6 +120,8 @@ def findClassSize(status):
 		classSize = int(status[delimL+1:delimR])
 	return classSize
 
+
+
 # Putting it all together
 for courses in d:
 	subject = courses["fields"]["subject"]
@@ -121,12 +148,21 @@ for courses in d:
 		for i in ["lecture", "lab", "seminar", "tutorial", "unknown"]:
 			subjectClassSizes_type[subject][i] = []
 
+	if subject not in subjectDiscussionSizes:
+		subjectDiscussionSizes[subject] = {}
+		subjectDiscussionSizes[subject]["numDiscussions"] = 0
+		subjectDiscussionSizes[subject]["discussionSizes"] = []
+
 	subjectClassSizes[subject][classLevel].append(classSize)
 	subjectClassSizes_type[subject][classType].append(classSize)
+	if classType == "lecture":
+		findDiscussions(subject, section, status)
 
 # Convert python results back to json file
 with open(sys.argv[2], 'w') as outfile:
 	json.dump(subjectClassSizes, outfile)
 	outfile.write("\n")
 	json.dump(subjectClassSizes_type, outfile)
+	outfile.write("\n")
+	json.dump(subjectDiscussionSizes, outfile)
 	outfile.write("\n")
