@@ -13,6 +13,18 @@ with open(sys.argv[1], 'r') as json_data:
 # a dictionary with mapping from a subject (e.g., COM SCI) to a list of class 
 # sizes
 subjectClassSizes = {}
+# class sizes based on type (seminar, lecture, etc)
+subjectClassSizes_type = {}
+
+# Extract course number from course name
+def getCourseNumber(course):
+	end = course.find("-") - 1
+	start = course.rfind(" ", 0, end - 1)
+	val = course[start+1:end]
+	courseNum = filter(lambda x: x.isdigit(), val)
+	if(len(courseNum) == 0):
+		return -1
+	return int(courseNum)
 
 # Determine if the class is lower division (1-99), upper division
 # (100-199), graduate (200-299), teacher training (300-399), professional
@@ -22,11 +34,7 @@ subjectClassSizes = {}
 # 	Some courses are C### e.g., C127
 #	Some courses are Writing II (W after number)
 # 	Course series (e.g., Math 32A, 32B, 33A, ...)
-def findClassLevel(course):
-	end = course.find("-") - 1
-	start = course.rfind(" ", 0, end - 1)
-	val = course[start+1:end]
-	courseNum = filter(lambda x: x.isdigit(), val)
+def findClassLevel(courseNum):
 	# lower division
 	if courseNum >= 1 and courseNum <= 99:
 		return "lower"
@@ -62,8 +70,6 @@ def findClassType(section):
 		return "tutorial"
 	else:
 		return "unknown"
-
-
 
 # To find class size, extract the last occurrence of number right before |*|
 # This is because:
@@ -101,20 +107,50 @@ for courses in d:
 	status = courses["fields"]["statuses"]
 	course = courses["pk"]
 	section = courses["fields"]["sections"]
+
+	courseNum = getCourseNumber(course)
 	classSize = findClassSize(status)
+	classLevel = findClassLevel(courseNum)
+	classType = findClassType(section)
 	# Class size of < 0 means that it fails the string parsing of status,
 	# indicating that it is either closed by dept or cancelled, so ignore 
 	# such class status in our data analysis
-	if classSize <= 0:
+	if classSize <= 0 or classLevel == "invalid":
 		continue
+	'''
+	if subject not in subjectClassSizes:
+		subjectClassSizes[subject] = {}
+		for i in ["lecture", "lab", "seminar", "tutorial", "unknown"]:
+			subjectClassSizes[subject][i] = {}
+			for j in ["lower", "upper", "grad", "teach", "prof", "indiv"]:
+				subjectClassSizes[subject][i][j] = []
+	'''
+	if subject not in subjectClassSizes:
+		subjectClassSizes[subject] = {}
+		for i in ["lower", "upper", "grad", "teach", "prof", "indiv"]:
+			subjectClassSizes[subject][i] = []
+		
+	if subject not in subjectClassSizes_type:
+		subjectClassSizes_type[subject] = {}
+		for i in ["lecture", "lab", "seminar", "tutorial", "unknown"]:
+			subjectClassSizes_type[subject][i] = []
+
+	subjectClassSizes[subject][classLevel].append(classSize)
+	subjectClassSizes_type[subject][classType].append(classSize)
+	# subjectClassSizes[subject][classType][classLevel].append(classSize)
+
+	'''
 	if subject in subjectClassSizes:
 		subjectClassSizes[subject].append(classSize)
 	else:
 		subjectClassSizes[subject] = [classSize]
+	'''
 
 # pprint(subjectClassSizes)
 
 # Convert python results back to json file
 with open(sys.argv[2], 'w') as outfile:
 	json.dump(subjectClassSizes, outfile)
+	outfile.write("\n")
+	json.dump(subjectClassSizes_type, outfile)
 	outfile.write("\n")
