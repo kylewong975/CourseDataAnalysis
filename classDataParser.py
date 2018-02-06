@@ -1,9 +1,3 @@
-'''
-TODOs:
-Classes that are seminars, tutorials, labs should consider ALL sections
-Separate upper division vs lower division analysis
-'''
-
 import json, sys
 from pprint import pprint
 
@@ -117,14 +111,6 @@ for courses in d:
 	# such class status in our data analysis
 	if classSize <= 0 or classLevel == "invalid":
 		continue
-	'''
-	if subject not in subjectClassSizes:
-		subjectClassSizes[subject] = {}
-		for i in ["lecture", "lab", "seminar", "tutorial", "unknown"]:
-			subjectClassSizes[subject][i] = {}
-			for j in ["lower", "upper", "grad", "teach", "prof", "indiv"]:
-				subjectClassSizes[subject][i][j] = []
-	'''
 	if subject not in subjectClassSizes:
 		subjectClassSizes[subject] = {}
 		for i in ["lower", "upper", "grad", "teach", "prof", "indiv"]:
@@ -137,16 +123,6 @@ for courses in d:
 
 	subjectClassSizes[subject][classLevel].append(classSize)
 	subjectClassSizes_type[subject][classType].append(classSize)
-	# subjectClassSizes[subject][classType][classLevel].append(classSize)
-
-	'''
-	if subject in subjectClassSizes:
-		subjectClassSizes[subject].append(classSize)
-	else:
-		subjectClassSizes[subject] = [classSize]
-	'''
-
-# pprint(subjectClassSizes)
 
 # Convert python results back to json file
 with open(sys.argv[2], 'w') as outfile:
