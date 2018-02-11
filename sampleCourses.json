@@ -1,0 +1,42 @@
+{
+  "fields": {
+    "day_times": "TR 3pm-5:15pm",
+    "grades": "[]",
+    "instructors": "Haha, K.",
+    "locations": "Mystery Pillars 232",
+    "sections": "Lec 1",
+    "statuses": "Open: 7 of 60 Left",
+    "subject": "Magic (MAG)",
+    "url": "classes.sampleUniversity.edu:9000/magic"
+  },
+  "model": "scanner.class_data",
+  "pk": "Fall MAG 17 - Intro to Magic Formulae"
+},
+{
+  "fields": {
+    "day_times": "MW 10am-11:50am|*|T 12pm-12:50pm|*|W 9am-9:50am",
+    "grades": "[19.8, 3.133, 17.8, 12.667, 13.533, 19.667, 15.667, 5.267, 6.267, 0.0, 3.133, 0.0, 0.0, 3.133]|*|[]|*|[]",
+    "instructors": "Code, S.|*|TA|*|TA",
+    "locations": "Rotunda 132A|*|Rotunda 133E|*|Rotunda 133G",
+    "sections": "Lec 1|*|Dis 1A|*|Dis 1B",
+    "statuses": "Closed Class Full (33)|*|Closed Class Full (16)|*|Closed Class Full (17)",
+    "subject": "Language (LANG)",
+    "url": "classes.sampleUniversity.edu:9000/lang"
+  },
+  "model": "scanner.class_data",
+  "pk": "Fall LANG 101 - Language of the Code"
+},
+{
+  "fields": {
+    "day_times": "MW 12pm-1:50pm|*|F 10am-11:50am|*|F 10am-11:50am|*|F 12pm-1:50pm|*|F 12pm-1:50pm|*|F 2pm-3:50pm|*|F 2pm-3:50pm|*|F 4pm-5:50pm|*|MW 4pm-5:50pm|*|F 10am-11:50am|*|F 12pm-1:50pm|*|F 12pm-1:50pm|*|F 12pm-1:50pm|*|F 2pm-3:50pm|*|F 2pm-3:50pm|*|F 4pm-5:50pm",
+    "grades": "[]",
+    "instructors": "Ice, P.|*|TA|*|TA|*|TA|*|TA|*|TA|*|TA|*|TA|*|Ice, P.|*|TA|*|TA|*|TA|*|TA|*|TA|*|TA|*|TA",
+    "locations": "Pie Garden 1178|*|Pie Garden 5280|*|Pie Garden 5419|*|Pie Garden 5419|*|Pie Garden 5280|*|Pie Garden 5280|*|Pie Garden 5419|*|Pie Garden 5280|*|Pie Garden 1178|*|Pie Garden 9436|*|Pie Garden 169|*|Pie Garden 5273|*|Pie Garden 325|*|Pie Garden 5436|*|Pie Garden 5273|*|Pie Garden 5440",
+    "sections": "Lec 1|*|Dis 1A|*|Dis 1B|*|Dis 1D|*|Dis 1E|*|Dis 1F|*|Dis 1G|*|Dis 1H|*|Lec 2|*|Dis 2A|*|Dis 2B|*|Dis 2C|*|Dis 2D|*|Dis 2E|*|Dis 2F|*|Dis 2G",
+    "statuses": "Open: 281 of 293 Left|*|Open: 40 of 42 Left|*|Open: 42 of 42 Left|*|Open: 37 of 42 Left|*|Open: 39 of 42 Left|*|Open: 41 of 42 Left|*|Open: 41 of 42 Left|*|Open: 41 of 41 Left|*|Open: 283 of 290 Left|*|Open: 41 of 41 Left|*|Open: 40 of 41 Left|*|Open: 41 of 41 Left|*|Open: 41 of 41 Left|*|Open: 39 of 42 Left|*|Open: 42 of 42 Left|*|Open: 39 of 42 Left",
+    "subject": "Computing (COMP)",
+    "url": "classes.sampleUniversity.edu:9000/comp"
+  },
+  "model": "scanner.class_data",
+  "pk": "Fall COMP 93 - Analysis of the Secrecy"
+}

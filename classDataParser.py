@@ -111,7 +111,7 @@ def findClassSize(status):
 		delim = status.find("Left")
 		numIndex = status.rfind(" ", 0, delim - 2)
 		classSize = int(status[numIndex+1:delim-1])
-	elif status.find("Closed by Dept"):
+	elif status.find("Closed by Dept") != -1:
 		return -1
 	# Class is full (closed)
 	elif status.find("Closed Class Full") != -1:
