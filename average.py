@@ -10,16 +10,12 @@ for line in f:
 # a dictionary with mapping from a subject (e.g., COM SCI) to the average 
 # class size
 output_contents = []
-subjectClassSizes = {}
+subjectClassSizesByClassType = {}
+subjectClassSizesByLectureType = {}
 subjectDiscussionSizes = {}
 
-lineNum = 1
-
-# For each subject, there exists a list of class sizes. Loop through the 
-# list and calculate the average of that list
-for line in json_objs:
-	if lineNum > 2:
-		break
+def func(line):
+	subjectClassSizes = {}
 	for subject in line:
 		for attr in line[subject]:
 			classSizes = line[subject][attr]
@@ -32,34 +28,43 @@ for line in json_objs:
 				if subject not in subjectClassSizes:
 					subjectClassSizes[subject] = {}
 				subjectClassSizes[subject][attr] = total * 1.0 / numClasses
-	output_contents.append(subjectClassSizes)
-	subjectClassSizes = {}
-	lineNum += 1
-# For discussion section, similar logic but different JSON structure
-lineNum = 1
-for line in json_objs:
-	if lineNum <= 2:
-		lineNum += 1
-		continue
-	elif lineNum > 3:
-		break
-	for subject in line:
-		discussionSizes = line[subject]["discussionSizes"]
-		total = 0
-		numDiscussions = 0
-		for discussionSize in discussionSizes:
-			total += discussionSize
-			numDiscussions += 1
-		if numDiscussions != 0 and total != 0:
-			if subject not in subjectDiscussionSizes:
-				subjectDiscussionSizes[subject] = {}
-			subjectDiscussionSizes[subject]["discussionSize"] = total * 1.0 / numDiscussions
-	output_contents.append(subjectDiscussionSizes)
-	subjectDiscussionSizes = {}
-	lineNum += 1
+	return subjectClassSizes
+
+# For each subject, there exists a list of class sizes. Loop through the 
+# list and calculate the average of that list
+
+subjectClassSizesByClassType = func(json_objs[0])
+subjectClassSizesByLectureType = func(json_objs[1])
+output_contents.append(subjectClassSizesByClassType)
+output_contents.append(subjectClassSizesByLectureType)
+
+subjectDiscussionSizes = {}
+for subject in json_objs[2]:
+	discussionSizes = json_objs[2][subject]["discussionSizes"]
+	total = 0
+	numDiscussions = 0
+	for discussionSize in discussionSizes:
+		total += discussionSize
+		numDiscussions += 1
+	if numDiscussions != 0 and total != 0:
+		if subject not in subjectDiscussionSizes:
+			subjectDiscussionSizes[subject] = {}
+		subjectDiscussionSizes[subject]["discussionSize"] = total * 1.0 / numDiscussions
+output_contents.append(subjectDiscussionSizes)
 
 # Convert python results back to json file
 with open(sys.argv[2], 'w') as outfile:
 	for line in output_contents:
 		json.dump(line, outfile)
 		outfile.write("\n")
+
+import operator
+mean = lambda nums: sum(nums, 0.0) / len(nums)
+average_lecture_size = round(mean([item["lecture"] for item in subjectClassSizesByLectureType.values() if "lecture" in item]), 2)
+print "Average Lecture Size:", average_lecture_size
+
+
+
+
+
+
