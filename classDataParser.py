@@ -70,6 +70,8 @@ def findClassType(section):
 		return "seminar"
 	elif section.find("Tut") != -1:
 		return "tutorial"
+	elif section.find("Rgp") != -1:
+		return "research_group"
 	else:
 		return "unknown"
 
@@ -145,7 +147,7 @@ for courses in d:
 		
 	if subject not in subjectClassSizes_type:
 		subjectClassSizes_type[subject] = {}
-		for i in ["lecture", "lab", "seminar", "tutorial", "unknown"]:
+		for i in ["lecture", "lab", "seminar", "tutorial", "research_group", "unknown"]:
 			subjectClassSizes_type[subject][i] = []
 
 	if subject not in subjectDiscussionSizes:
