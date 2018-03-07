@@ -1,12 +1,4 @@
-# functions that you can use to determine which class belongs to what college
-# Number definitions
-# 	1 = College of Letters and Science
-# 	2 = School of the Arts and Architecture
-# 	3 = School of Engineering and Applied Science
-# 	4 = School of Music
-# 	5 = School of Nursing
-# 	6 = School of Theater, Film and Television
-
+# Major definitions
 LETTERS_AND_SCIENCE = [
 	"African American Studies", 
 	"African and Middle Eastern Studies", 
@@ -145,9 +137,74 @@ THEATER_FILM_AND_TV = [
 	"Theater"
 ]
 
+# functions that you can use to determine which class belongs to what college
+# Number definitions
+# 	1 = College of Letters and Science
+# 	2 = School of the Arts and Architecture
+# 	3 = School of Engineering and Applied Science
+# 	4 = School of Music
+# 	5 = School of Nursing
+# 	6 = School of Theater, Film and Television
 def whichCollege(course):
-	return course
+	if isTheaterFilmAndTV(course):
+		return 6
+	elif isNursing(course):
+		return 5
+	elif isMusic(course):
+		return 4
+	elif isEngineeringAndAppliedScience(course):
+		return 3
+	elif isArtsAndArchitecture(course):
+		return 2
+	elif isLettersAndScience(course):
+		return 1
+	else:
+		for i in THEATER_FILM_AND_TV:
+			if course.find(i) != -1:
+				return 6
+		for i in NURSING:
+			if course.find(i) != -1:
+				return 5
+		for i in MUSIC:
+			if course.find(i) != -1:
+				return 4
+		for i in ENGINEERING_AND_APPLIED_SCIENCE:
+			if course.find(i) != -1:
+				return 3
+		for i in ARTS_AND_ARCHITECTURE:
+			if course.find(i) != -1:
+				return 2
+		for i in LETTERS_AND_SCIENCE:
+			if course.find(i) != -1:
+				return 1
+		return 0
 
 def isLettersAndScience(course):
-	return LETTERS_AND_SCIENCE[0]
+	paren = course.find("(") - 1
+	item = course[0:paren]
+	return item in LETTERS_AND_SCIENCE
 
+def isArtsAndArchitecture(course):
+	paren = course.find("(") - 1
+	item = course[0:paren]
+	return item in ARTS_AND_ARCHITECTURE
+
+def isEngineeringAndAppliedScience(course):
+	paren = course.find("(") - 1
+	item = course[0:paren]
+	return item in ENGINEERING_AND_APPLIED_SCIENCE
+
+def isMusic(course):
+	paren = course.find("(") - 1
+	item = course[0:paren]
+	return item in MUSIC
+
+def isNursing(course):
+	paren = course.find("(") - 1
+	item = course[0:paren]
+	return item in NURSING
+
+def isTheaterFilmAndTV(course):
+	paren = course.find("(") - 1
+	item = course[0:paren]
+	return item in THEATER_FILM_AND_TV
