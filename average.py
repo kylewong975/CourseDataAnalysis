@@ -61,7 +61,7 @@ with open(sys.argv[2], 'w') as outfile:
 import operator
 mean = lambda nums: sum(nums, 0.0) / len(nums)
 average_lecture_size = round(mean([item["lecture"] for item in subjectClassSizesByLectureType.values() if "lecture" in item]), 2)
-print "Average Lecture Size:", average_lecture_size
+print ('Average Lecture Size: {}'.format(average_lecture_size))
 
 
 

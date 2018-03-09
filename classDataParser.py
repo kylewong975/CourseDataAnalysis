@@ -23,7 +23,7 @@ def getCourseNumber(course):
 	end = course.find("-") - 1
 	start = course.rfind(" ", 0, end - 1)
 	val = course[start+1:end]
-	courseNum = filter(lambda x: x.isdigit(), val)
+	courseNum = ''.join(list(filter(lambda x: x.isdigit(), val)))
 	if(len(courseNum) == 0):
 		return -1
 	return int(courseNum)
