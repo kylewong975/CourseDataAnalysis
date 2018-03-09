@@ -1,3 +1,2000 @@
-{"Atmospheric and Oceanic Sciences (A&O SCI)": {"lower": 134.28571428571428, "upper": 54.857142857142854, "grad": 16.666666666666668, "teach": 3.0, "indiv": 10.0}, "Aerospace Studies (AERO ST)": {"lower": 25.0, "upper": 32.5}, "African American Studies (AF AMER)": {"lower": 55.0, "upper": 20.22222222222222, "grad": 10.0, "teach": 2.0, "indiv": 10.0}, "African Studies (AFRC ST)": {"indiv": 10.0}, "Afrikaans (AFRKAAN)": {"lower": 40.0, "indiv": 10.0}, "American Indian Studies (AM IND)": {"lower": 65.0, "upper": 12.5, "grad": 7.5, "indiv": 10.0}, "Ancient Near East (AN N EA)": {"lower": 130.0, "upper": 22.0, "grad": 15.0, "indiv": 10.0}, "Anthropology (ANTHRO)": {"lower": 160.0, "upper": 71.03846153846153, "grad": 8.375, "teach": 5.0, "indiv": 10.0}, "Applied Linguistics (APPLING)": {"upper": 22.0, "teach": 10.0, "indiv": 10.0}, "Arabic": {"lower": 20.0, "upper": 30.0, "indiv": 10.0}, "Architecture and Urban Design (ARCH&UD)": {"lower": 160.0, "upper": 22.75, "grad": 31.25, "teach": 5.0, "prof": 27.5, "indiv": 10.0}, "Archaeology (ARCHEOL)": {"lower": 150.0, "grad": 13.0, "indiv": 10.0}, "Armenian (ARMENIA)": {"upper": 25.0, "grad": 10.0, "indiv": 10.0}, "Art": {"lower": 18.625, "upper": 20.454545454545453, "grad": 10.0, "teach": 1.0, "indiv": 10.0}, "Arts and Architecture (ART&ARC)": {"upper": 20.0}, "Art History (ART HIS)": {"lower": 270.0, "upper": 39.583333333333336, "grad": 12.0, "teach": 6.0, "indiv": 10.0}, "Arts Education (ARTS ED)": {"upper": 20.0}, "Asian American Studies (ASIA AM)": {"lower": 50.0, "upper": 32.42857142857143, "grad": 8.666666666666666, "teach": 6.0, "indiv": 10.0}, "Asian": {"lower": 56.0, "upper": 40.0, "grad": 12.5, "teach": 50.0, "indiv": 10.0}, "American Sign Language (ASL)": {"lower": 25.0, "upper": 33.0}, "Astronomy (ASTR)": {"lower": 118.5, "upper": 35.0, "grad": 17.857142857142858, "teach": 5.0, "indiv": 10.0}, "Bioengineering (BIOENGR)": {"upper": 29.333333333333332, "grad": 14.695652173913043, "teach": 7.0, "prof": 20.0, "indiv": 10.0}, "Bioinformatics (Graduate) (BIOINFO)": {"grad": 12.0, "indiv": 10.0}, "Biological Chemistry (BIOL CH)": {"upper": 10.0, "grad": 26.25, "indiv": 10.0}, "Biomathematics (BIOMATH)": {"grad": 15.142857142857142, "indiv": 10.0}, "Biostatistics (BIOSTAT)": {"upper": 100.0, "grad": 24.666666666666668, "prof": 8.0, "indiv": 10.0}, "Biomedical Research (BMD RES)": {"lower": 50.0, "upper": 20.0}, "Civil and Environmental Engineering (C&EE)": {"upper": 42.92857142857143, "grad": 40.714285714285715, "teach": 5.0, "indiv": 10.0}, "Central and East European Studies (C&EE ST)": {"upper": 25.0}, "Computational and Systems Biology (C&S BIO)": {"upper": 10.0}, "Conservation of Archaeological and Ethnographic Materials (CAEM)": {"grad": 7.5, "indiv": 10.0}, "Chemical Engineering (CH ENGR)": {"lower": 90.0, "upper": 61.142857142857146, "grad": 19.210526315789473, "teach": 5.0, "indiv": 10.0}, "Chemistry and Biochemistry (CHEM)": {"lower": 165.42105263157896, "upper": 55.27777777777778, "grad": 131.88311688311688, "teach": 100.0, "prof": 100.0, "indiv": 55.0}, "Chicana and Chicano Studies (CHICANO)": {"lower": 73.57142857142857, "upper": 34.76, "grad": 9.0, "teach": 20.0, "indiv": 10.0}, "Chinese (CHIN)": {"lower": 74.4, "upper": 37.25, "grad": 8.333333333333334}, "Civic Engagement (CIVIC)": {"lower": 100.0, "upper": 12.0, "teach": 2.0}, "Classics (CLASSIC)": {"lower": 102.8, "upper": 41.875, "grad": 15.0, "teach": 5.0, "indiv": 10.0}, "Clusters (CLUSTER)": {"lower": 204.0, "upper": 80.0}, "Community Health Sciences (COM HLT)": {"upper": 44.0, "grad": 23.266666666666666, "teach": 10.0, "prof": 23.75, "indiv": 10.0}, "Comparative Literature (COM LIT)": {"lower": 66.66666666666667, "upper": 16.88888888888889, "grad": 15.0, "teach": 25.0, "indiv": 10.0}, "Computer Science (COM SCI)": {"lower": 143.6, "upper": 97.23809523809524, "grad": 31.88235294117647, "teach": 5.0, "indiv": 10.0}, "Communication (COMM)": {"lower": 63.0, "upper": 75.3076923076923}, "Program in Computing (COMPTNG)": {"lower": 45.0, "teach": 10.0}, "Dance": {"lower": 21.5, "upper": 14.545454545454545, "grad": 7.75, "prof": 7.0}, "Design / Media Arts (DESMA)": {"lower": 112.0, "upper": 21.5, "grad": 12.0, "teach": 1.0, "prof": 17.5, "indiv": 10.0}, "Digital Humanities (DGT HUM)": {"upper": 30.0, "grad": 10.333333333333334, "indiv": 10.0}, "Disability Studies (DIS STD)": {"upper": 46.666666666666664}, "Dutch": {"upper": 25.0, "indiv": 10.0}, "Electrical and Computer Engineering (EC ENGR)": {"lower": 62.0, "upper": 44.25925925925926, "grad": 47.107142857142854, "teach": 4.0}, "Economics (ECON)": {"lower": 189.16666666666666, "upper": 130.25, "grad": 26.310344827586206, "teach": 15.0, "prof": 25.0, "indiv": 10.0}, "Education (EDUC)": {"lower": 21.666666666666668, "upper": 26.4, "grad": 20.413793103448278, "teach": 18.666666666666668, "prof": 26.25, "indiv": 10.0}, "Ecology and Evolutionary Biology (EE BIOL)": {"lower": 42.5, "upper": 53.36842105263158, "grad": 15.375, "teach": 5.0, "indiv": 10.0}, "Electrical Engineering (EL ENGR)": {"indiv": 10.0}, "English Composition (ENGCOMP)": {"lower": 15.428571428571429, "upper": 16.0}, "English (ENGL)": {"lower": 49.3125, "upper": 29.885245901639344, "grad": 10.0, "teach": 25.0, "indiv": 10.0}, "Engineering (ENGR)": {"lower": 60.0, "upper": 132.8, "grad": 26.5, "teach": 8.0, "prof": 20.0}, "Environmental Health Sciences (ENV HLT)": {"upper": 36.666666666666664, "grad": 14.55, "teach": 5.0, "prof": 16.25, "indiv": 10.0}, "Environment (ENVIRON)": {"upper": 54.416666666666664, "grad": 30.0, "teach": 4.0, "prof": 3.0, "indiv": 10.0}, "Epidemiology (EPIDEM)": {"upper": 58.5, "grad": 28.272727272727273, "teach": 5.0, "prof": 18.6, "indiv": 10.0}, "Earth, Planetary, and Space Sciences (EPS SCI)": {"lower": 168.8, "upper": 36.857142857142854, "grad": 21.0, "teach": 1.0, "indiv": 10.0}, "English as A Second Language (ESL)": {"upper": 20.0, "teach": 17.5}, "Ethnomusicology (ETHNMUS)": {"lower": 28.571428571428573, "upper": 18.3953488372093, "grad": 9.444444444444445, "teach": 5.0, "indiv": 10.0}, "Filipino (FILIPNO)": {"lower": 46.5}, "Film and Television (FILM TV)": {"lower": 113.57142857142857, "upper": 36.10526315789474, "grad": 21.705882352941178, "teach": 60.0, "prof": 18.857142857142858, "indiv": 10.0}, "French (FRNCH)": {"lower": 27.9, "upper": 28.5, "grad": 15.0, "teach": 20.0, "indiv": 10.0}, "Gender Studies (GENDER)": {"lower": 195.0, "upper": 31.166666666666668, "grad": 7.333333333333333, "teach": 5.0, "indiv": 10.0}, "Geography (GEOG)": {"lower": 174.0, "upper": 93.0, "grad": 16.666666666666668, "teach": 5.0, "indiv": 10.0}, "German": {"lower": 65.625, "upper": 28.0, "grad": 15.0, "teach": 5.0, "indiv": 10.0}, "Global Health (GLB HLT)": {"upper": 150.0}, "Global Studies (GLBL ST)": {"lower": 20.0, "upper": 300.0, "teach": 4.0}, "Graduate Student Professional Development (GRAD PD)": {"prof": 12.0}, "Greek": {"lower": 20.0, "upper": 15.0, "grad": 15.0, "indiv": 10.0}, "Gerontology (GRNTLGY)": {"upper": 16.0}, "Hebrew": {"lower": 25.0, "upper": 25.0, "grad": 10.0, "indiv": 10.0}, "History (HIST)": {"lower": 83.30434782608695, "upper": 62.84, "grad": 11.344827586206897, "teach": 4.0, "prof": 5.0, "indiv": 10.0}, "Health Policy and Management (HLT POL)": {"upper": 36.5, "grad": 23.444444444444443, "teach": 5.0, "prof": 22.5, "indiv": 10.0}, "Hungarian (HNGAR)": {"upper": 10.0}, "Honors Collegium (HNRS)": {"lower": 21.1, "upper": 24.615384615384617}, "Human Genetics (HUM GEN)": {"grad": 3.6666666666666665, "indiv": 10.0}, "International and Area Studies (I A STD)": {"lower": 33.75, "upper": 42.5, "teach": 1.0}, "Indo-European Studies (I E STD)": {"lower": 32.0, "upper": 10.0, "grad": 10.0, "indiv": 10.0}, "Indigenous Languages of the Americas (IL AMER)": {"lower": 13.333333333333334}, "Indonesian (INDO)": {"lower": 25.0, "upper": 25.0}, "Information Studies (INF STD)": {"lower": 17.5, "upper": 22.0, "grad": 25.375, "teach": 8.0, "prof": 31.11111111111111, "indiv": 10.0}, "International Development Studies (INTL DV)": {"upper": 37.5, "teach": 1.0}, "Iranian": {"lower": 22.5, "upper": 30.0, "grad": 5.0, "indiv": 10.0}, "Islamic Studies (ISLM ST)": {"upper": 35.0, "grad": 15.0, "indiv": 10.0}, "Italian": {"lower": 29.166666666666668, "upper": 23.75, "grad": 15.0, "teach": 25.0, "indiv": 10.0}, "Japanese (JAPAN)": {"lower": 106.0, "upper": 33.833333333333336, "grad": 10.0}, "Jewish Studies (JEWISH)": {"upper": 30.0}, "Korean (KOREA)": {"lower": 101.0, "upper": 31.11111111111111, "grad": 10.0}, "Latin": {"lower": 30.0, "upper": 17.5, "grad": 15.0, "indiv": 10.0}, "Latin American Studies (LATN AM)": {"grad": 3.0, "indiv": 10.0}, "Labor and Workplace Studies (LBR&WS)": {"upper": 62.625}, "Lesbian, Gay, Bisexual, Transgender, and Queer Studies (LGBTQS)": {"upper": 13.5}, "Life Sciences (LIFESCI)": {"lower": 282.0769230769231, "upper": 172.0, "teach": 10.0, "prof": 100.0}, "Linguistics (LING)": {"lower": 180.0, "upper": 34.38461538461539, "grad": 16.733333333333334, "teach": 9.0, "prof": 12.5, "indiv": 10.0}, "Middle Eastern Studies (M E STD)": {"lower": 60.0, "upper": 21.666666666666668}, "Molecular and Medical Pharmacology (M PHARM)": {"upper": 12.0, "grad": 31.4, "teach": 10.0, "indiv": 10.0}, "Materials Science and Engineering (MAT SCI)": {"upper": 45.75, "grad": 38.125, "teach": 5.0, "indiv": 10.0}, "Mathematics (MATH)": {"lower": 138.75, "upper": 40.48780487804878, "grad": 18.25, "teach": 10.0, "indiv": 10.0}, "Molecular, Cellular, and Integrative Physiology (MC&IP)": {"grad": 10.0, "indiv": 10.0}, "Molecular, Cell, and Developmental Biology (MCD BIO)": {"lower": 90.5, "upper": 42.05882352941177, "grad": 5.75, "teach": 10.0, "prof": 30.0, "indiv": 10.0}, "Mechanical and Aerospace Engineering (MECH&AE)": {"lower": 98.33333333333333, "upper": 57.55555555555556, "grad": 34.76190476190476, "teach": 4.0, "prof": 20.0, "indiv": 10.0}, "Medical History (MED HIS)": {"upper": 20.0}, "Management (MGMT)": {"lower": 240.0, "upper": 77.46666666666667, "grad": 53.285714285714285, "teach": 10.0, "prof": 57.833333333333336, "indiv": 10.0}, "Management-Master of Financial Engineering (MGMTMFE)": {"prof": 45.0}, "Management-Master of Science in Business Analytics (MGMTMSA)": {"prof": 45.0}, "Management-PhD (MGMTPHD)": {"grad": 14.23076923076923}, "Military Science (MIL SCI)": {"lower": 30.0, "upper": 30.0}, "Microbiology, Immunology, and Molecular Genetics (MIMG)": {"lower": 56.0, "upper": 62.76923076923077, "grad": 12.0, "teach": 5.0, "prof": 15.0, "indiv": 10.0}, "Molecular Biology (MOL BIO)": {"grad": 12.5, "indiv": 10.0}, "Molecular Toxicology (MOL TOX)": {"grad": 11.666666666666666, "indiv": 10.0}, "Music History (MSC HST)": {"lower": 48.125, "upper": 19.333333333333332}, "Music Industry (MSC IND)": {"upper": 26.0}, "Music (MUSC)": {"lower": 34.294117647058826, "upper": 13.064516129032258, "grad": 12.666666666666666, "teach": 5.0, "prof": 9.966666666666667, "indiv": 10.0}, "Musicology (MUSCLG)": {"grad": 10.5, "teach": 10.0, "prof": 10.0, "indiv": 10.0}, "Naval Science (NAV SCI)": {"lower": 22.0, "upper": 18.0}, "Neurobiology (NEURBIO)": {"upper": 23.5, "grad": 2.0, "indiv": 10.0}, "Neurology (NEURLGY)": {"upper": 2.0}, "Neuroscience (Graduate) (NEURO)": {"grad": 15.846153846153847, "teach": 10.0, "indiv": 10.0}, "Neuroscience (NEUROSC)": {"upper": 83.0}, "Near Eastern Languages (NR EAST)": {"lower": 32.0, "grad": 5.0, "teach": 10.0, "indiv": 10.0}, "Nursing": {"lower": 40.666666666666664, "upper": 43.75, "grad": 41.166666666666664, "teach": 1.0, "prof": 25.5, "indiv": 10.0}, "Oral Biology (ORL BIO)": {"grad": 24.6, "indiv": 10.0}, "Pathology and Laboratory Medicine (PATH)": {"grad": 10.0, "indiv": 10.0}, "Physics and Biology in Medicine (PBMED)": {"grad": 7.666666666666667, "indiv": 10.0}, "Philosophy (PHILOS)": {"lower": 192.0, "upper": 49.57142857142857, "grad": 14.285714285714286, "teach": 10.0, "indiv": 10.0}, "Physiological Science (PHYSCI)": {"lower": 419.0, "upper": 43.714285714285715, "grad": 20.0, "teach": 10.0, "indiv": 10.0}, "Physics": {"lower": 79.57142857142857, "upper": 37.526315789473685, "grad": 24.77777777777778, "teach": 10.0, "indiv": 10.0}, "Physiology (PHYSIOL)": {"indiv": 10.0}, "Political Science (POL SCI)": {"lower": 196.0, "upper": 67.0, "grad": 15.625, "teach": 10.0, "indiv": 10.0}, "Polish (POLSH)": {"upper": 12.5}, "Portuguese (PORTGSE)": {"lower": 19.0, "upper": 30.0, "grad": 15.0, "teach": 100.0, "indiv": 10.0}, "Psychology (PSYCH)": {"lower": 110.4, "upper": 86.275, "grad": 12.96551724137931, "teach": 1.0, "prof": 21.666666666666668, "indiv": 10.0}, "Psychiatry and Biobehavioral Sciences (PSYCTRY)": {"grad": 20.0, "prof": 10.0, "indiv": 10.0}, "Public Health (PUB HLT)": {"upper": 10.5, "prof": 20.0}, "Public Policy (PUB PLC)": {"upper": 30.0, "grad": 27.533333333333335, "teach": 1.0, "prof": 15.0, "indiv": 10.0}, "Religion, Study of (RELIGN)": {"lower": 26.0, "upper": 40.625}, "Romanian (ROMANIA)": {"upper": 20.0}, "Russian (RUSSN)": {"lower": 33.0, "upper": 13.272727272727273, "grad": 10.0}, "Scandinavian (SCAND)": {"lower": 44.333333333333336, "upper": 20.0, "grad": 5.0, "teach": 4.0, "indiv": 10.0}, "Science Education (SCI EDU)": {"lower": 22.5, "upper": 25.0}, "Southeast Asian (SEASIAN)": {"lower": 32.0}, "Semitic": {"upper": 10.0, "grad": 15.0, "indiv": 10.0}, "Slavic (SLAVC)": {"lower": 33.5, "upper": 15.0, "grad": 10.0, "teach": 10.0, "prof": 10.0, "indiv": 10.0}, "Society and Genetics (SOC GEN)": {"lower": 70.0, "upper": 53.57142857142857, "teach": 1.0}, "Social Science (SOC SC)": {"lower": 20.0, "teach": 1.0, "prof": 25.0}, "Social Thought (SOC THT)": {"upper": 5.0}, "Social Welfare (SOC WLF)": {"upper": 200.0, "grad": 19.61904761904762, "teach": 5.0, "prof": 20.0, "indiv": 10.0}, "Sociology (SOCIOL)": {"lower": 110.0, "upper": 79.75, "grad": 16.8125, "teach": 2.0, "indiv": 10.0}, "Spanish (SPAN)": {"lower": 19.818181818181817, "upper": 32.0, "grad": 14.166666666666666, "teach": 100.0, "indiv": 10.0}, "Serbian/Croatian (SRB CRO)": {"upper": 15.0}, "Statistics (STATS)": {"lower": 111.25, "upper": 72.2, "grad": 26.25, "teach": 6.0, "prof": 25.666666666666668, "indiv": 10.0}, "Swahili": {"lower": 15.0}, "Thai": {"lower": 25.0, "upper": 25.0}, "Theater": {"lower": 21.0, "upper": 25.51219512195122, "grad": 12.555555555555555, "teach": 4.0, "prof": 10.84, "indiv": 10.0}, "Turkic Languages (TURKIC)": {"upper": 25.0, "grad": 15.0}, "University Studies (UNIV ST)": {"lower": 27.0}, "Urban Planning (URBN PL)": {"upper": 21.666666666666668, "grad": 27.80952380952381, "teach": 3.0, "prof": 10.0, "indiv": 10.0}, "Vietnamese (VIETMSE)": {"lower": 41.666666666666664, "upper": 36.0}, "World Arts and Cultures (WL ARTS)": {"lower": 26.333333333333332, "upper": 15.0, "grad": 8.833333333333334, "teach": 1.0, "prof": 5.0, "indiv": 10.0}, "Yiddish (YIDDSH)": {"upper": 25.0, "indiv": 10.0}}
-{"Atmospheric and Oceanic Sciences (A&O SCI)": {"lecture": 69.3125, "lab": 64.0, "seminar": 26.333333333333332, "tutorial": 10.0, "research_group": 10.0, "unknown": 10.0}, "Aerospace Studies (AERO ST)": {"lecture": 28.75}, "African American Studies (AF AMER)": {"lecture": 36.2, "seminar": 10.4, "tutorial": 10.0}, "African Studies (AFRC ST)": {"tutorial": 10.0}, "Afrikaans (AFRKAAN)": {"lecture": 40.0, "tutorial": 10.0}, "American Indian Studies (AM IND)": {"lecture": 31.4, "seminar": 9.333333333333334, "tutorial": 10.0}, "Ancient Near East (AN N EA)": {"lecture": 62.5, "seminar": 15.0, "tutorial": 10.0}, "Anthropology (ANTHRO)": {"lecture": 102.21739130434783, "seminar": 11.458333333333334, "tutorial": 10.0}, "Applied Linguistics (APPLING)": {"lecture": 22.0, "seminar": 10.0, "tutorial": 10.0}, "Arabic": {"lecture": 27.5, "seminar": 35.0, "tutorial": 10.0}, "Architecture and Urban Design (ARCH&UD)": {"lecture": 46.666666666666664, "lab": 38.0, "seminar": 10.0, "tutorial": 10.0, "unknown": 18.75}, "Archaeology (ARCHEOL)": {"lecture": 40.0, "seminar": 15.0, "tutorial": 10.0}, "Armenian (ARMENIA)": {"lecture": 22.857142857142858, "tutorial": 10.0}, "Art": {"lecture": 42.666666666666664, "seminar": 8.2, "tutorial": 10.0, "unknown": 13.909090909090908}, "Arts and Architecture (ART&ARC)": {"lecture": 20.0}, "Art History (ART HIS)": {"lecture": 76.53846153846153, "seminar": 12.285714285714286, "tutorial": 10.0}, "Arts Education (ARTS ED)": {"lecture": 20.0, "seminar": 20.0}, "Asian American Studies (ASIA AM)": {"lecture": 47.84615384615385, "seminar": 15.785714285714286, "tutorial": 12.5}, "Asian": {"lecture": 48.0, "seminar": 23.75, "tutorial": 9.0}, "American Sign Language (ASL)": {"lecture": 27.666666666666668}, "Astronomy (ASTR)": {"lecture": 65.44444444444444, "seminar": 17.5, "tutorial": 15.0, "unknown": 10.0}, "Bioengineering (BIOENGR)": {"lecture": 22.25, "seminar": 15.166666666666666, "tutorial": 8.714285714285714}, "Bioinformatics (Graduate) (BIOINFO)": {"lecture": 7.5, "seminar": 21.0, "tutorial": 10.0}, "Biological Chemistry (BIOL CH)": {"lecture": 10.0, "lab": 20.0, "seminar": 23.75, "tutorial": 10.0}, "Biomathematics (BIOMATH)": {"lecture": 15.142857142857142, "tutorial": 10.0}, "Biostatistics (BIOSTAT)": {"lecture": 34.30769230769231, "lab": 7.0, "seminar": 23.333333333333332, "tutorial": 10.0, "unknown": 5.0}, "Biomedical Research (BMD RES)": {"lecture": 50.0, "seminar": 20.0}, "Civil and Environmental Engineering (C&EE)": {"lecture": 42.541666666666664, "seminar": 31.0, "tutorial": 10.0}, "Central and East European Studies (C&EE ST)": {"lecture": 25.0}, "Computational and Systems Biology (C&S BIO)": {"lecture": 10.0}, "Conservation of Archaeological and Ethnographic Materials (CAEM)": {"lecture": 9.0, "lab": 6.0, "tutorial": 10.0}, "Chemical Engineering (CH ENGR)": {"lecture": 53.90909090909091, "seminar": 17.352941176470587, "tutorial": 10.0}, "Chemistry and Biochemistry (CHEM)": {"lecture": 99.13953488372093, "lab": 28.333333333333332, "seminar": 143.955223880597, "tutorial": 55.0, "research_group": 150.0, "unknown": 200.0}, "Chicana and Chicano Studies (CHICANO)": {"lecture": 49.59090909090909, "seminar": 22.058823529411764, "tutorial": 8.2}, "Chinese (CHIN)": {"lecture": 48.214285714285715, "seminar": 10.0}, "Civic Engagement (CIVIC)": {"lecture": 100.0, "seminar": 8.666666666666666}, "Classics (CLASSIC)": {"lecture": 96.375, "seminar": 14.125, "tutorial": 10.0}, "Clusters (CLUSTER)": {"lecture": 192.72727272727272}, "Community Health Sciences (COM HLT)": {"lecture": 24.846153846153847, "seminar": 21.8, "tutorial": 10.0, "unknown": 27.5}, "Comparative Literature (COM LIT)": {"lecture": 41.5, "seminar": 16.8, "tutorial": 10.0, "unknown": 20.0}, "Computer Science (COM SCI)": {"lecture": 79.76315789473684, "lab": 28.0, "seminar": 64.0, "tutorial": 10.0}, "Communication (COMM)": {"lecture": 91.95652173913044, "seminar": 22.428571428571427, "tutorial": 1.0}, "Program in Computing (COMPTNG)": {"lecture": 45.0, "seminar": 10.0}, "Dance": {"lecture": 18.333333333333332, "lab": 14.0, "seminar": 23.333333333333332, "tutorial": 5.0, "unknown": 15.565217391304348}, "Design / Media Arts (DESMA)": {"lecture": 300.0, "seminar": 12.0, "tutorial": 10.666666666666666, "unknown": 20.23076923076923}, "Digital Humanities (DGT HUM)": {"seminar": 20.0, "tutorial": 5.5}, "Disability Studies (DIS STD)": {"lecture": 60.0, "seminar": 20.0}, "Dutch": {"lecture": 25.0, "tutorial": 10.0}, "Electrical and Computer Engineering (EC ENGR)": {"lecture": 49.08163265306123, "lab": 24.5, "seminar": 27.8}, "Economics (ECON)": {"lecture": 110.8913043478261, "seminar": 25.473684210526315, "tutorial": 10.0}, "Education (EDUC)": {"lecture": 24.037037037037038, "lab": 12.333333333333334, "seminar": 23.952380952380953, "tutorial": 11.166666666666666, "unknown": 21.666666666666668}, "Ecology and Evolutionary Biology (EE BIOL)": {"lecture": 53.857142857142854, "seminar": 18.0, "tutorial": 8.2}, "Electrical Engineering (EL ENGR)": {"tutorial": 10.0}, "English Composition (ENGCOMP)": {"lecture": 15.555555555555555}, "English (ENGL)": {"lecture": 41.473684210526315, "seminar": 12.88, "tutorial": 8.2}, "Engineering (ENGR)": {"lecture": 99.25, "seminar": 21.0, "unknown": 1.0}, "Environmental Health Sciences (ENV HLT)": {"lecture": 22.642857142857142, "seminar": 11.4, "tutorial": 10.0, "research_group": 10.0, "unknown": 10.0}, "Environment (ENVIRON)": {"lecture": 42.9, "seminar": 53.333333333333336, "tutorial": 7.0}, "Epidemiology (EPIDEM)": {"lecture": 32.86666666666667, "seminar": 13.5, "tutorial": 7.75, "unknown": 5.0}, "Earth, Planetary, and Space Sciences (EPS SCI)": {"lecture": 61.2, "seminar": 16.375, "tutorial": 10.0, "research_group": 7.5}, "English as A Second Language (ESL)": {"lecture": 18.0}, "Ethnomusicology (ETHNMUS)": {"lecture": 53.785714285714285, "lab": 13.5, "seminar": 13.214285714285714, "tutorial": 8.5, "unknown": 16.160714285714285}, "Filipino (FILIPNO)": {"lecture": 46.5}, "Film and Television (FILM TV)": {"lecture": 48.74285714285714, "lab": 17.25, "seminar": 20.941176470588236, "tutorial": 12.857142857142858, "unknown": 19.0}, "French (FRNCH)": {"lecture": 27.333333333333332, "seminar": 20.0, "tutorial": 10.0}, "Gender Studies (GENDER)": {"lecture": 49.8, "lab": 3.0, "seminar": 5.0, "tutorial": 10.0}, "Geography (GEOG)": {"lecture": 102.5, "seminar": 20.625, "tutorial": 10.0}, "German": {"lecture": 95.0, "seminar": 18.333333333333332, "tutorial": 10.0, "unknown": 25.0}, "Global Health (GLB HLT)": {"lecture": 150.0}, "Global Studies (GLBL ST)": {"lecture": 300.0, "seminar": 14.666666666666666}, "Graduate Student Professional Development (GRAD PD)": {"seminar": 12.0}, "Greek": {"lecture": 16.25, "seminar": 15.0, "tutorial": 10.0}, "Gerontology (GRNTLGY)": {"lecture": 16.0}, "Hebrew": {"lecture": 25.0, "seminar": 10.0, "tutorial": 10.0}, "History (HIST)": {"lecture": 95.58333333333333, "seminar": 14.428571428571429, "tutorial": 10.0}, "Health Policy and Management (HLT POL)": {"lecture": 26.944444444444443, "seminar": 16.666666666666668, "tutorial": 10.0}, "Hungarian (HNGAR)": {"lecture": 10.0}, "Honors Collegium (HNRS)": {"lecture": 33.333333333333336, "seminar": 21.55}, "Human Genetics (HUM GEN)": {"lecture": 3.6666666666666665, "tutorial": 10.0}, "International and Area Studies (I A STD)": {"lecture": 42.5, "seminar": 17.0}, "Indo-European Studies (I E STD)": {"lecture": 15.5, "tutorial": 10.0}, "Indigenous Languages of the Americas (IL AMER)": {"lecture": 13.333333333333334}, "Indonesian (INDO)": {"lecture": 25.0}, "Information Studies (INF STD)": {"lecture": 31.153846153846153, "lab": 6.0, "seminar": 22.5625, "tutorial": 10.0, "unknown": 26.0}, "International Development Studies (INTL DV)": {"lecture": 50.0, "seminar": 17.0}, "Iranian": {"lecture": 26.666666666666668, "seminar": 20.0, "tutorial": 10.0}, "Islamic Studies (ISLM ST)": {"lecture": 35.0, "seminar": 15.0, "tutorial": 10.0}, "Italian": {"lecture": 25.0, "seminar": 25.0, "tutorial": 10.0}, "Japanese (JAPAN)": {"lecture": 61.5, "seminar": 11.666666666666666}, "Jewish Studies (JEWISH)": {"lecture": 30.0}, "Korean (KOREA)": {"lecture": 52.61538461538461, "seminar": 10.0}, "Latin": {"lecture": 22.0, "tutorial": 10.0}, "Latin American Studies (LATN AM)": {"lecture": 3.0, "tutorial": 10.0}, "Labor and Workplace Studies (LBR&WS)": {"lecture": 70.16666666666667, "seminar": 40.0}, "Lesbian, Gay, Bisexual, Transgender, and Queer Studies (LGBTQS)": {"lecture": 13.5}, "Life Sciences (LIFESCI)": {"lecture": 275.54545454545456, "lab": 720.0, "seminar": 74.0}, "Linguistics (LING)": {"lecture": 47.0, "lab": 10.0, "seminar": 11.0, "tutorial": 10.0, "unknown": 30.0}, "Middle Eastern Studies (M E STD)": {"lecture": 33.333333333333336, "seminar": 25.0}, "Molecular and Medical Pharmacology (M PHARM)": {"lecture": 13.0, "lab": 20.0, "seminar": 33.25, "tutorial": 10.0}, "Materials Science and Engineering (MAT SCI)": {"lecture": 46.07692307692308, "lab": 12.0, "seminar": 21.666666666666668, "tutorial": 10.0}, "Mathematics (MATH)": {"lecture": 56.16883116883117, "lab": 30.0, "seminar": 13.25, "tutorial": 10.0}, "Molecular, Cellular, and Integrative Physiology (MC&IP)": {"lecture": 10.0, "seminar": 10.0, "tutorial": 10.0}, "Molecular, Cell, and Developmental Biology (MCD BIO)": {"lecture": 69.35714285714286, "lab": 14.5, "seminar": 13.0, "tutorial": 10.0, "unknown": 10.0}, "Mechanical and Aerospace Engineering (MECH&AE)": {"lecture": 50.65, "seminar": 14.75, "tutorial": 10.0}, "Medical History (MED HIS)": {"lecture": 20.0}, "Management (MGMT)": {"lecture": 68.5, "seminar": 42.5, "tutorial": 10.0, "unknown": 42.9}, "Management-Master of Financial Engineering (MGMTMFE)": {"lecture": 45.0}, "Management-Master of Science in Business Analytics (MGMTMSA)": {"lecture": 45.0, "seminar": 45.0}, "Management-PhD (MGMTPHD)": {"lecture": 15.0, "seminar": 11.666666666666666}, "Military Science (MIL SCI)": {"lecture": 30.0}, "Microbiology, Immunology, and Molecular Genetics (MIMG)": {"lecture": 97.125, "lab": 32.0, "seminar": 10.75, "tutorial": 7.75}, "Molecular Biology (MOL BIO)": {"lecture": 11.666666666666666, "seminar": 20.0, "tutorial": 10.0}, "Molecular Toxicology (MOL TOX)": {"lecture": 10.0, "seminar": 20.0, "tutorial": 10.0, "research_group": 10.0}, "Music History (MSC HST)": {"lecture": 71.0, "lab": 10.0, "seminar": 19.166666666666668, "tutorial": 1.0, "unknown": 20.0}, "Music Industry (MSC IND)": {"seminar": 28.333333333333332, "unknown": 12.0}, "Music (MUSC)": {"lecture": 38.54545454545455, "lab": 17.5, "seminar": 18.833333333333332, "tutorial": 9.444444444444445, "unknown": 16.75609756097561}, "Musicology (MUSCLG)": {"seminar": 10.428571428571429, "tutorial": 10.0, "unknown": 10.0}, "Naval Science (NAV SCI)": {"lecture": 19.333333333333332}, "Neurobiology (NEURBIO)": {"lecture": 18.5, "seminar": 12.0, "tutorial": 10.0}, "Neurology (NEURLGY)": {"tutorial": 2.0}, "Neuroscience (Graduate) (NEURO)": {"lecture": 23.5, "seminar": 12.11111111111111, "tutorial": 10.0, "unknown": 13.0}, "Neuroscience (NEUROSC)": {"lecture": 100.66666666666667, "seminar": 30.0}, "Near Eastern Languages (NR EAST)": {"lecture": 32.0, "seminar": 7.5, "tutorial": 10.0}, "Nursing": {"lecture": 46.95238095238095, "seminar": 10.6, "tutorial": 10.0, "unknown": 25.5}, "Oral Biology (ORL BIO)": {"lecture": 20.0, "seminar": 27.666666666666668, "tutorial": 10.0}, "Pathology and Laboratory Medicine (PATH)": {"tutorial": 10.0, "research_group": 10.0}, "Physics and Biology in Medicine (PBMED)": {"lecture": 9.75, "seminar": 6.0, "tutorial": 10.0, "unknown": 1.0}, "Philosophy (PHILOS)": {"lecture": 76.92307692307692, "seminar": 15.0, "tutorial": 7.75}, "Physiological Science (PHYSCI)": {"lecture": 79.23076923076923, "lab": 12.0, "seminar": 14.142857142857142, "tutorial": 10.0}, "Physics": {"lecture": 55.542857142857144, "lab": 17.375, "seminar": 16.25, "tutorial": 22.142857142857142, "unknown": 10.0}, "Physiology (PHYSIOL)": {"tutorial": 10.0}, "Political Science (POL SCI)": {"lecture": 91.3076923076923, "seminar": 15.45, "tutorial": 10.0, "unknown": 16.666666666666668}, "Polish (POLSH)": {"lecture": 15.0, "tutorial": 10.0}, "Portuguese (PORTGSE)": {"lecture": 21.571428571428573, "seminar": 53.333333333333336, "tutorial": 10.0}, "Psychology (PSYCH)": {"lecture": 90.30232558139535, "lab": 19.77777777777778, "seminar": 14.38888888888889, "tutorial": 7.75, "unknown": 18.9}, "Psychiatry and Biobehavioral Sciences (PSYCTRY)": {"lecture": 25.0, "seminar": 18.333333333333332, "tutorial": 10.0, "unknown": 10.0}, "Public Health (PUB HLT)": {"lecture": 20.0, "seminar": 20.0, "tutorial": 1.0}, "Public Policy (PUB PLC)": {"lecture": 31.7, "seminar": 11.75, "tutorial": 10.0, "unknown": 23.75}, "Religion, Study of (RELIGN)": {"lecture": 38.285714285714285, "seminar": 33.75}, "Romanian (ROMANIA)": {"lecture": 20.0}, "Russian (RUSSN)": {"lecture": 19.142857142857142, "seminar": 10.0}, "Scandinavian (SCAND)": {"lecture": 88.0, "seminar": 12.25, "tutorial": 10.0, "unknown": 22.5}, "Science Education (SCI EDU)": {"seminar": 23.333333333333332}, "Southeast Asian (SEASIAN)": {"lecture": 32.0}, "Semitic": {"lecture": 12.5, "tutorial": 10.0}, "Slavic (SLAVC)": {"lecture": 25.666666666666668, "seminar": 11.666666666666666, "tutorial": 10.0}, "Society and Genetics (SOC GEN)": {"lecture": 80.0, "seminar": 19.2}, "Social Science (SOC SC)": {"seminar": 18.2}, "Social Thought (SOC THT)": {"seminar": 5.0}, "Social Welfare (SOC WLF)": {"lecture": 30.63157894736842, "seminar": 5.0, "tutorial": 10.0, "unknown": 14.0}, "Sociology (SOCIOL)": {"lecture": 95.29629629629629, "lab": 15.0, "seminar": 18.526315789473685, "tutorial": 10.0, "unknown": 15.0}, "Spanish (SPAN)": {"lecture": 26.037037037037038, "seminar": 46.666666666666664, "tutorial": 10.0, "research_group": 10.0, "unknown": 15.0}, "Serbian/Croatian (SRB CRO)": {"lecture": 20.0, "tutorial": 10.0}, "Statistics (STATS)": {"lecture": 61.86363636363637, "seminar": 28.5, "tutorial": 8.75}, "Swahili": {"lecture": 15.0}, "Thai": {"lecture": 25.0}, "Theater": {"lecture": 32.48, "lab": 12.416666666666666, "seminar": 16.8, "tutorial": 11.666666666666666, "unknown": 14.907407407407407}, "Turkic Languages (TURKIC)": {"lecture": 21.666666666666668}, "University Studies (UNIV ST)": {"seminar": 27.0}, "Urban Planning (URBN PL)": {"lecture": 28.210526315789473, "lab": 36.0, "seminar": 12.5, "tutorial": 10.0, "unknown": 30.0}, "Vietnamese (VIETMSE)": {"lecture": 40.25}, "World Arts and Cultures (WL ARTS)": {"lecture": 31.0, "lab": 8.0, "seminar": 11.0, "tutorial": 10.0, "unknown": 5.0}, "Yiddish (YIDDSH)": {"lecture": 25.0, "tutorial": 10.0}}
-{"Atmospheric and Oceanic Sciences (A&O SCI)": {"discussionSize": 27.88888888888889}, "Aerospace Studies (AERO ST)": {"discussionSize": 25.0}, "African American Studies (AF AMER)": {"discussionSize": 10.0}, "American Indian Studies (AM IND)": {"discussionSize": 15.0}, "Ancient Near East (AN N EA)": {"discussionSize": 15.652173913043478}, "Anthropology (ANTHRO)": {"discussionSize": 20.0}, "Applied Linguistics (APPLING)": {"discussionSize": 22.0}, "Arabic": {"discussionSize": 10.0}, "Architecture and Urban Design (ARCH&UD)": {"discussionSize": 23.823529411764707}, "Archaeology (ARCHEOL)": {"discussionSize": 25.0}, "Art": {"discussionSize": 16.0}, "Art History (ART HIS)": {"discussionSize": 15.0}, "Asian American Studies (ASIA AM)": {"discussionSize": 13.2}, "Asian": {"discussionSize": 11.571428571428571}, "Astronomy (ASTR)": {"discussionSize": 40.59090909090909}, "Bioengineering (BIOENGR)": {"discussionSize": 17.875}, "Bioinformatics (Graduate) (BIOINFO)": {"discussionSize": 3.0}, "Biological Chemistry (BIOL CH)": {"discussionSize": 5.0}, "Biostatistics (BIOSTAT)": {"discussionSize": 32.333333333333336}, "Biomedical Research (BMD RES)": {"discussionSize": 20.0}, "Civil and Environmental Engineering (C&EE)": {"discussionSize": 45.8421052631579}, "Chemical Engineering (CH ENGR)": {"discussionSize": 28.058823529411764}, "Chemistry and Biochemistry (CHEM)": {"discussionSize": 33.351612903225806}, "Chicana and Chicano Studies (CHICANO)": {"discussionSize": 29.3}, "Chinese (CHIN)": {"discussionSize": 25.703703703703702}, "Civic Engagement (CIVIC)": {"discussionSize": 100.0}, "Classics (CLASSIC)": {"discussionSize": 19.666666666666668}, "Clusters (CLUSTER)": {"discussionSize": 20.11764705882353}, "Community Health Sciences (COM HLT)": {"discussionSize": 26.666666666666668}, "Comparative Literature (COM LIT)": {"discussionSize": 20.0}, "Computer Science (COM SCI)": {"discussionSize": 39.75}, "Communication (COMM)": {"discussionSize": 25.5625}, "Program in Computing (COMPTNG)": {"discussionSize": 38.4375}, "Dance": {"discussionSize": 30.0}, "Disability Studies (DIS STD)": {"discussionSize": 14.0}, "Electrical and Computer Engineering (EC ENGR)": {"discussionSize": 34.833333333333336}, "Economics (ECON)": {"discussionSize": 30.99236641221374}, "Education (EDUC)": {"discussionSize": 26.5}, "Ecology and Evolutionary Biology (EE BIOL)": {"discussionSize": 18.645833333333332}, "English Composition (ENGCOMP)": {"discussionSize": 16.661290322580644}, "English (ENGL)": {"discussionSize": 19.155555555555555}, "Engineering (ENGR)": {"discussionSize": 23.151515151515152}, "Environmental Health Sciences (ENV HLT)": {"discussionSize": 17.5}, "Environment (ENVIRON)": {"discussionSize": 10.0625}, "Epidemiology (EPIDEM)": {"discussionSize": 44.57142857142857}, "Earth, Planetary, and Space Sciences (EPS SCI)": {"discussionSize": 26.41860465116279}, "English as A Second Language (ESL)": {"discussionSize": 17.5}, "Ethnomusicology (ETHNMUS)": {"discussionSize": 33.8235294117647}, "Filipino (FILIPNO)": {"discussionSize": 25.0}, "Film and Television (FILM TV)": {"discussionSize": 18.50877192982456}, "French (FRNCH)": {"discussionSize": 24.53846153846154}, "Gender Studies (GENDER)": {"discussionSize": 18.46153846153846}, "Geography (GEOG)": {"discussionSize": 26.818181818181817}, "German": {"discussionSize": 30.0}, "Global Health (GLB HLT)": {"discussionSize": 23.0}, "Global Studies (GLBL ST)": {"discussionSize": 24.916666666666668}, "Greek": {"discussionSize": 20.0}, "Hebrew": {"discussionSize": 25.0}, "History (HIST)": {"discussionSize": 19.333333333333332}, "Health Policy and Management (HLT POL)": {"discussionSize": 23.0}, "Honors Collegium (HNRS)": {"discussionSize": 42.5}, "International and Area Studies (I A STD)": {"discussionSize": 24.333333333333332}, "Indo-European Studies (I E STD)": {"discussionSize": 4.0}, "Indonesian (INDO)": {"discussionSize": 25.0}, "Information Studies (INF STD)": {"discussionSize": 35.0}, "International Development Studies (INTL DV)": {"discussionSize": 25.0}, "Iranian": {"discussionSize": 25.0}, "Islamic Studies (ISLM ST)": {"discussionSize": 5.0}, "Italian": {"discussionSize": 23.25}, "Japanese (JAPAN)": {"discussionSize": 22.566666666666666}, "Korean (KOREA)": {"discussionSize": 23.36}, "Latin": {"discussionSize": 20.0}, "Labor and Workplace Studies (LBR&WS)": {"discussionSize": 26.857142857142858}, "Life Sciences (LIFESCI)": {"discussionSize": 33.71830985915493}, "Linguistics (LING)": {"discussionSize": 20.357142857142858}, "Middle Eastern Studies (M E STD)": {"discussionSize": 10.0}, "Materials Science and Engineering (MAT SCI)": {"discussionSize": 40.294117647058826}, "Mathematics (MATH)": {"discussionSize": 44.44493392070485}, "Molecular, Cell, and Developmental Biology (MCD BIO)": {"discussionSize": 15.078125}, "Mechanical and Aerospace Engineering (MECH&AE)": {"discussionSize": 44.84375}, "Management (MGMT)": {"discussionSize": 63.05172413793103}, "Management-Master of Financial Engineering (MGMTMFE)": {"discussionSize": 45.0}, "Microbiology, Immunology, and Molecular Genetics (MIMG)": {"discussionSize": 21.47826086956522}, "Molecular Biology (MOL BIO)": {"discussionSize": 11.666666666666666}, "Music History (MSC HST)": {"discussionSize": 16.904761904761905}, "Music (MUSC)": {"discussionSize": 24.15}, "Neuroscience (Graduate) (NEURO)": {"discussionSize": 30.0}, "Neuroscience (NEUROSC)": {"discussionSize": 21.09090909090909}, "Near Eastern Languages (NR EAST)": {"discussionSize": 4.0}, "Nursing": {"discussionSize": 26.4}, "Philosophy (PHILOS)": {"discussionSize": 25.919354838709676}, "Physiological Science (PHYSCI)": {"discussionSize": 17.916666666666668}, "Physics": {"discussionSize": 36.285714285714285}, "Political Science (POL SCI)": {"discussionSize": 19.669642857142858}, "Portuguese (PORTGSE)": {"discussionSize": 15.0}, "Psychology (PSYCH)": {"discussionSize": 23.65}, "Public Health (PUB HLT)": {"discussionSize": 5.0}, "Public Policy (PUB PLC)": {"discussionSize": 10.0}, "Religion, Study of (RELIGN)": {"discussionSize": 9.368421052631579}, "Russian (RUSSN)": {"discussionSize": 18.666666666666668}, "Scandinavian (SCAND)": {"discussionSize": 22.0}, "Southeast Asian (SEASIAN)": {"discussionSize": 4.0}, "Slavic (SLAVC)": {"discussionSize": 6.3}, "Society and Genetics (SOC GEN)": {"discussionSize": 17.083333333333332}, "Social Welfare (SOC WLF)": {"discussionSize": 27.642857142857142}, "Sociology (SOCIOL)": {"discussionSize": 23.63809523809524}, "Spanish (SPAN)": {"discussionSize": 21.625}, "Statistics (STATS)": {"discussionSize": 46.127272727272725}, "Theater": {"discussionSize": 8.25}, "Urban Planning (URBN PL)": {"discussionSize": 30.0}, "Vietnamese (VIETMSE)": {"discussionSize": 25.0}, "World Arts and Cultures (WL ARTS)": {"discussionSize": 20.0}}
+[
+  {
+    "Atmospheric and Oceanic Sciences (A&O SCI)": {
+      "lower": 134.28571428571428,
+      "upper": 54.857142857142854,
+      "grad": 16.666666666666668,
+      "teach": 3.0,
+      "indiv": 10.0
+    },
+    "Aerospace Studies (AERO ST)": {
+      "lower": 25.0,
+      "upper": 32.5
+    },
+    "African American Studies (AF AMER)": {
+      "lower": 55.0,
+      "upper": 20.22222222222222,
+      "grad": 10.0,
+      "teach": 2.0,
+      "indiv": 10.0
+    },
+    "African Studies (AFRC ST)": {
+      "indiv": 10.0
+    },
+    "Afrikaans (AFRKAAN)": {
+      "lower": 40.0,
+      "indiv": 10.0
+    },
+    "American Indian Studies (AM IND)": {
+      "lower": 65.0,
+      "upper": 12.5,
+      "grad": 7.5,
+      "indiv": 10.0
+    },
+    "Ancient Near East (AN N EA)": {
+      "lower": 130.0,
+      "upper": 22.0,
+      "grad": 15.0,
+      "indiv": 10.0
+    },
+    "Anthropology (ANTHRO)": {
+      "lower": 160.0,
+      "upper": 71.03846153846153,
+      "grad": 8.375,
+      "teach": 5.0,
+      "indiv": 10.0
+    },
+    "Applied Linguistics (APPLING)": {
+      "upper": 22.0,
+      "teach": 10.0,
+      "indiv": 10.0
+    },
+    "Arabic": {
+      "lower": 20.0,
+      "upper": 30.0,
+      "indiv": 10.0
+    },
+    "Architecture and Urban Design (ARCH&UD)": {
+      "lower": 160.0,
+      "upper": 22.75,
+      "grad": 31.25,
+      "teach": 5.0,
+      "prof": 27.5,
+      "indiv": 10.0
+    },
+    "Archaeology (ARCHEOL)": {
+      "lower": 150.0,
+      "grad": 13.0,
+      "indiv": 10.0
+    },
+    "Armenian (ARMENIA)": {
+      "upper": 25.0,
+      "grad": 10.0,
+      "indiv": 10.0
+    },
+    "Art": {
+      "lower": 18.625,
+      "upper": 20.454545454545453,
+      "grad": 10.0,
+      "teach": 1.0,
+      "indiv": 10.0
+    },
+    "Arts and Architecture (ART&ARC)": {
+      "upper": 20.0
+    },
+    "Art History (ART HIS)": {
+      "lower": 270.0,
+      "upper": 39.583333333333336,
+      "grad": 12.0,
+      "teach": 6.0,
+      "indiv": 10.0
+    },
+    "Arts Education (ARTS ED)": {
+      "upper": 20.0
+    },
+    "Asian American Studies (ASIA AM)": {
+      "lower": 50.0,
+      "upper": 32.42857142857143,
+      "grad": 8.666666666666666,
+      "teach": 6.0,
+      "indiv": 10.0
+    },
+    "Asian": {
+      "lower": 56.0,
+      "upper": 40.0,
+      "grad": 12.5,
+      "teach": 50.0,
+      "indiv": 10.0
+    },
+    "American Sign Language (ASL)": {
+      "lower": 25.0,
+      "upper": 33.0
+    },
+    "Astronomy (ASTR)": {
+      "lower": 118.5,
+      "upper": 35.0,
+      "grad": 17.857142857142858,
+      "teach": 5.0,
+      "indiv": 10.0
+    },
+    "Bioengineering (BIOENGR)": {
+      "upper": 29.333333333333332,
+      "grad": 14.695652173913043,
+      "teach": 7.0,
+      "prof": 20.0,
+      "indiv": 10.0
+    },
+    "Bioinformatics (Graduate) (BIOINFO)": {
+      "grad": 12.0,
+      "indiv": 10.0
+    },
+    "Biological Chemistry (BIOL CH)": {
+      "upper": 10.0,
+      "grad": 26.25,
+      "indiv": 10.0
+    },
+    "Biomathematics (BIOMATH)": {
+      "grad": 15.142857142857142,
+      "indiv": 10.0
+    },
+    "Biostatistics (BIOSTAT)": {
+      "upper": 100.0,
+      "grad": 24.666666666666668,
+      "prof": 8.0,
+      "indiv": 10.0
+    },
+    "Biomedical Research (BMD RES)": {
+      "lower": 50.0,
+      "upper": 20.0
+    },
+    "Civil and Environmental Engineering (C&EE)": {
+      "upper": 42.92857142857143,
+      "grad": 40.714285714285715,
+      "teach": 5.0,
+      "indiv": 10.0
+    },
+    "Central and East European Studies (C&EE ST)": {
+      "upper": 25.0
+    },
+    "Computational and Systems Biology (C&S BIO)": {
+      "upper": 10.0
+    },
+    "Conservation of Archaeological and Ethnographic Materials (CAEM)": {
+      "grad": 7.5,
+      "indiv": 10.0
+    },
+    "Chemical Engineering (CH ENGR)": {
+      "lower": 90.0,
+      "upper": 61.142857142857146,
+      "grad": 19.210526315789473,
+      "teach": 5.0,
+      "indiv": 10.0
+    },
+    "Chemistry and Biochemistry (CHEM)": {
+      "lower": 165.42105263157896,
+      "upper": 55.27777777777778,
+      "grad": 131.88311688311688,
+      "teach": 100.0,
+      "prof": 100.0,
+      "indiv": 55.0
+    },
+    "Chicana and Chicano Studies (CHICANO)": {
+      "lower": 73.57142857142857,
+      "upper": 34.76,
+      "grad": 9.0,
+      "teach": 20.0,
+      "indiv": 10.0
+    },
+    "Chinese (CHIN)": {
+      "lower": 74.4,
+      "upper": 37.25,
+      "grad": 8.333333333333334
+    },
+    "Civic Engagement (CIVIC)": {
+      "lower": 100.0,
+      "upper": 12.0,
+      "teach": 2.0
+    },
+    "Classics (CLASSIC)": {
+      "lower": 102.8,
+      "upper": 41.875,
+      "grad": 15.0,
+      "teach": 5.0,
+      "indiv": 10.0
+    },
+    "Clusters (CLUSTER)": {
+      "lower": 204.0,
+      "upper": 80.0
+    },
+    "Community Health Sciences (COM HLT)": {
+      "upper": 44.0,
+      "grad": 23.266666666666666,
+      "teach": 10.0,
+      "prof": 23.75,
+      "indiv": 10.0
+    },
+    "Comparative Literature (COM LIT)": {
+      "lower": 66.66666666666667,
+      "upper": 16.88888888888889,
+      "grad": 15.0,
+      "teach": 25.0,
+      "indiv": 10.0
+    },
+    "Computer Science (COM SCI)": {
+      "lower": 143.6,
+      "upper": 97.23809523809524,
+      "grad": 31.88235294117647,
+      "teach": 5.0,
+      "indiv": 10.0
+    },
+    "Communication (COMM)": {
+      "lower": 63.0,
+      "upper": 75.3076923076923
+    },
+    "Program in Computing (COMPTNG)": {
+      "lower": 45.0,
+      "teach": 10.0
+    },
+    "Dance": {
+      "lower": 21.5,
+      "upper": 14.545454545454545,
+      "grad": 7.75,
+      "prof": 7.0
+    },
+    "Design / Media Arts (DESMA)": {
+      "lower": 112.0,
+      "upper": 21.5,
+      "grad": 12.0,
+      "teach": 1.0,
+      "prof": 17.5,
+      "indiv": 10.0
+    },
+    "Digital Humanities (DGT HUM)": {
+      "upper": 30.0,
+      "grad": 10.333333333333334,
+      "indiv": 10.0
+    },
+    "Disability Studies (DIS STD)": {
+      "upper": 46.666666666666664
+    },
+    "Dutch": {
+      "upper": 25.0,
+      "indiv": 10.0
+    },
+    "Electrical and Computer Engineering (EC ENGR)": {
+      "lower": 62.0,
+      "upper": 44.25925925925926,
+      "grad": 47.107142857142854,
+      "teach": 4.0
+    },
+    "Economics (ECON)": {
+      "lower": 189.16666666666666,
+      "upper": 130.25,
+      "grad": 26.310344827586206,
+      "teach": 15.0,
+      "prof": 25.0,
+      "indiv": 10.0
+    },
+    "Education (EDUC)": {
+      "lower": 21.666666666666668,
+      "upper": 26.4,
+      "grad": 20.413793103448278,
+      "teach": 18.666666666666668,
+      "prof": 26.25,
+      "indiv": 10.0
+    },
+    "Ecology and Evolutionary Biology (EE BIOL)": {
+      "lower": 42.5,
+      "upper": 53.36842105263158,
+      "grad": 15.375,
+      "teach": 5.0,
+      "indiv": 10.0
+    },
+    "Electrical Engineering (EL ENGR)": {
+      "indiv": 10.0
+    },
+    "English Composition (ENGCOMP)": {
+      "lower": 15.428571428571429,
+      "upper": 16.0
+    },
+    "English (ENGL)": {
+      "lower": 49.3125,
+      "upper": 29.885245901639344,
+      "grad": 10.0,
+      "teach": 25.0,
+      "indiv": 10.0
+    },
+    "Engineering (ENGR)": {
+      "lower": 60.0,
+      "upper": 132.8,
+      "grad": 26.5,
+      "teach": 8.0,
+      "prof": 20.0
+    },
+    "Environmental Health Sciences (ENV HLT)": {
+      "upper": 36.666666666666664,
+      "grad": 14.55,
+      "teach": 5.0,
+      "prof": 16.25,
+      "indiv": 10.0
+    },
+    "Environment (ENVIRON)": {
+      "upper": 54.416666666666664,
+      "grad": 30.0,
+      "teach": 4.0,
+      "prof": 3.0,
+      "indiv": 10.0
+    },
+    "Epidemiology (EPIDEM)": {
+      "upper": 58.5,
+      "grad": 28.272727272727273,
+      "teach": 5.0,
+      "prof": 18.6,
+      "indiv": 10.0
+    },
+    "Earth, Planetary, and Space Sciences (EPS SCI)": {
+      "lower": 168.8,
+      "upper": 36.857142857142854,
+      "grad": 21.0,
+      "teach": 1.0,
+      "indiv": 10.0
+    },
+    "English as A Second Language (ESL)": {
+      "upper": 20.0,
+      "teach": 17.5
+    },
+    "Ethnomusicology (ETHNMUS)": {
+      "lower": 28.571428571428573,
+      "upper": 18.3953488372093,
+      "grad": 9.444444444444445,
+      "teach": 5.0,
+      "indiv": 10.0
+    },
+    "Filipino (FILIPNO)": {
+      "lower": 46.5
+    },
+    "Film and Television (FILM TV)": {
+      "lower": 113.57142857142857,
+      "upper": 36.10526315789474,
+      "grad": 21.705882352941178,
+      "teach": 60.0,
+      "prof": 18.857142857142858,
+      "indiv": 10.0
+    },
+    "French (FRNCH)": {
+      "lower": 27.9,
+      "upper": 28.5,
+      "grad": 15.0,
+      "teach": 20.0,
+      "indiv": 10.0
+    },
+    "Gender Studies (GENDER)": {
+      "lower": 195.0,
+      "upper": 31.166666666666668,
+      "grad": 7.333333333333333,
+      "teach": 5.0,
+      "indiv": 10.0
+    },
+    "Geography (GEOG)": {
+      "lower": 174.0,
+      "upper": 93.0,
+      "grad": 16.666666666666668,
+      "teach": 5.0,
+      "indiv": 10.0
+    },
+    "German": {
+      "lower": 65.625,
+      "upper": 28.0,
+      "grad": 15.0,
+      "teach": 5.0,
+      "indiv": 10.0
+    },
+    "Global Health (GLB HLT)": {
+      "upper": 150.0
+    },
+    "Global Studies (GLBL ST)": {
+      "lower": 20.0,
+      "upper": 300.0,
+      "teach": 4.0
+    },
+    "Graduate Student Professional Development (GRAD PD)": {
+      "prof": 12.0
+    },
+    "Greek": {
+      "lower": 20.0,
+      "upper": 15.0,
+      "grad": 15.0,
+      "indiv": 10.0
+    },
+    "Gerontology (GRNTLGY)": {
+      "upper": 16.0
+    },
+    "Hebrew": {
+      "lower": 25.0,
+      "upper": 25.0,
+      "grad": 10.0,
+      "indiv": 10.0
+    },
+    "History (HIST)": {
+      "lower": 83.30434782608695,
+      "upper": 62.84,
+      "grad": 11.344827586206897,
+      "teach": 4.0,
+      "prof": 5.0,
+      "indiv": 10.0
+    },
+    "Health Policy and Management (HLT POL)": {
+      "upper": 36.5,
+      "grad": 23.444444444444443,
+      "teach": 5.0,
+      "prof": 22.5,
+      "indiv": 10.0
+    },
+    "Hungarian (HNGAR)": {
+      "upper": 10.0
+    },
+    "Honors Collegium (HNRS)": {
+      "lower": 21.1,
+      "upper": 24.615384615384617
+    },
+    "Human Genetics (HUM GEN)": {
+      "grad": 3.6666666666666665,
+      "indiv": 10.0
+    },
+    "International and Area Studies (I A STD)": {
+      "lower": 33.75,
+      "upper": 42.5,
+      "teach": 1.0
+    },
+    "Indo-European Studies (I E STD)": {
+      "lower": 32.0,
+      "upper": 10.0,
+      "grad": 10.0,
+      "indiv": 10.0
+    },
+    "Indigenous Languages of the Americas (IL AMER)": {
+      "lower": 13.333333333333334
+    },
+    "Indonesian (INDO)": {
+      "lower": 25.0,
+      "upper": 25.0
+    },
+    "Information Studies (INF STD)": {
+      "lower": 17.5,
+      "upper": 22.0,
+      "grad": 25.375,
+      "teach": 8.0,
+      "prof": 31.11111111111111,
+      "indiv": 10.0
+    },
+    "International Development Studies (INTL DV)": {
+      "upper": 37.5,
+      "teach": 1.0
+    },
+    "Iranian": {
+      "lower": 22.5,
+      "upper": 30.0,
+      "grad": 5.0,
+      "indiv": 10.0
+    },
+    "Islamic Studies (ISLM ST)": {
+      "upper": 35.0,
+      "grad": 15.0,
+      "indiv": 10.0
+    },
+    "Italian": {
+      "lower": 29.166666666666668,
+      "upper": 23.75,
+      "grad": 15.0,
+      "teach": 25.0,
+      "indiv": 10.0
+    },
+    "Japanese (JAPAN)": {
+      "lower": 106.0,
+      "upper": 33.833333333333336,
+      "grad": 10.0
+    },
+    "Jewish Studies (JEWISH)": {
+      "upper": 30.0
+    },
+    "Korean (KOREA)": {
+      "lower": 101.0,
+      "upper": 31.11111111111111,
+      "grad": 10.0
+    },
+    "Latin": {
+      "lower": 30.0,
+      "upper": 17.5,
+      "grad": 15.0,
+      "indiv": 10.0
+    },
+    "Latin American Studies (LATN AM)": {
+      "grad": 3.0,
+      "indiv": 10.0
+    },
+    "Labor and Workplace Studies (LBR&WS)": {
+      "upper": 62.625
+    },
+    "Lesbian, Gay, Bisexual, Transgender, and Queer Studies (LGBTQS)": {
+      "upper": 13.5
+    },
+    "Life Sciences (LIFESCI)": {
+      "lower": 282.0769230769231,
+      "upper": 172.0,
+      "teach": 10.0,
+      "prof": 100.0
+    },
+    "Linguistics (LING)": {
+      "lower": 180.0,
+      "upper": 34.38461538461539,
+      "grad": 16.733333333333334,
+      "teach": 9.0,
+      "prof": 12.5,
+      "indiv": 10.0
+    },
+    "Middle Eastern Studies (M E STD)": {
+      "lower": 60.0,
+      "upper": 21.666666666666668
+    },
+    "Molecular and Medical Pharmacology (M PHARM)": {
+      "upper": 12.0,
+      "grad": 31.4,
+      "teach": 10.0,
+      "indiv": 10.0
+    },
+    "Materials Science and Engineering (MAT SCI)": {
+      "upper": 45.75,
+      "grad": 38.125,
+      "teach": 5.0,
+      "indiv": 10.0
+    },
+    "Mathematics (MATH)": {
+      "lower": 138.75,
+      "upper": 40.48780487804878,
+      "grad": 18.25,
+      "teach": 10.0,
+      "indiv": 10.0
+    },
+    "Molecular, Cellular, and Integrative Physiology (MC&IP)": {
+      "grad": 10.0,
+      "indiv": 10.0
+    },
+    "Molecular, Cell, and Developmental Biology (MCD BIO)": {
+      "lower": 90.5,
+      "upper": 42.05882352941177,
+      "grad": 5.75,
+      "teach": 10.0,
+      "prof": 30.0,
+      "indiv": 10.0
+    },
+    "Mechanical and Aerospace Engineering (MECH&AE)": {
+      "lower": 98.33333333333333,
+      "upper": 57.55555555555556,
+      "grad": 34.76190476190476,
+      "teach": 4.0,
+      "prof": 20.0,
+      "indiv": 10.0
+    },
+    "Medical History (MED HIS)": {
+      "upper": 20.0
+    },
+    "Management (MGMT)": {
+      "lower": 240.0,
+      "upper": 77.46666666666667,
+      "grad": 53.285714285714285,
+      "teach": 10.0,
+      "prof": 57.833333333333336,
+      "indiv": 10.0
+    },
+    "Management-Master of Financial Engineering (MGMTMFE)": {
+      "prof": 45.0
+    },
+    "Management-Master of Science in Business Analytics (MGMTMSA)": {
+      "prof": 45.0
+    },
+    "Management-PhD (MGMTPHD)": {
+      "grad": 14.23076923076923
+    },
+    "Military Science (MIL SCI)": {
+      "lower": 30.0,
+      "upper": 30.0
+    },
+    "Microbiology, Immunology, and Molecular Genetics (MIMG)": {
+      "lower": 56.0,
+      "upper": 62.76923076923077,
+      "grad": 12.0,
+      "teach": 5.0,
+      "prof": 15.0,
+      "indiv": 10.0
+    },
+    "Molecular Biology (MOL BIO)": {
+      "grad": 12.5,
+      "indiv": 10.0
+    },
+    "Molecular Toxicology (MOL TOX)": {
+      "grad": 11.666666666666666,
+      "indiv": 10.0
+    },
+    "Music History (MSC HST)": {
+      "lower": 48.125,
+      "upper": 19.333333333333332
+    },
+    "Music Industry (MSC IND)": {
+      "upper": 26.0
+    },
+    "Music (MUSC)": {
+      "lower": 34.294117647058826,
+      "upper": 13.064516129032258,
+      "grad": 12.666666666666666,
+      "teach": 5.0,
+      "prof": 9.966666666666667,
+      "indiv": 10.0
+    },
+    "Musicology (MUSCLG)": {
+      "grad": 10.5,
+      "teach": 10.0,
+      "prof": 10.0,
+      "indiv": 10.0
+    },
+    "Naval Science (NAV SCI)": {
+      "lower": 22.0,
+      "upper": 18.0
+    },
+    "Neurobiology (NEURBIO)": {
+      "upper": 23.5,
+      "grad": 2.0,
+      "indiv": 10.0
+    },
+    "Neurology (NEURLGY)": {
+      "upper": 2.0
+    },
+    "Neuroscience (Graduate) (NEURO)": {
+      "grad": 15.846153846153847,
+      "teach": 10.0,
+      "indiv": 10.0
+    },
+    "Neuroscience (NEUROSC)": {
+      "upper": 83.0
+    },
+    "Near Eastern Languages (NR EAST)": {
+      "lower": 32.0,
+      "grad": 5.0,
+      "teach": 10.0,
+      "indiv": 10.0
+    },
+    "Nursing": {
+      "lower": 40.666666666666664,
+      "upper": 43.75,
+      "grad": 41.166666666666664,
+      "teach": 1.0,
+      "prof": 25.5,
+      "indiv": 10.0
+    },
+    "Oral Biology (ORL BIO)": {
+      "grad": 24.6,
+      "indiv": 10.0
+    },
+    "Pathology and Laboratory Medicine (PATH)": {
+      "grad": 10.0,
+      "indiv": 10.0
+    },
+    "Physics and Biology in Medicine (PBMED)": {
+      "grad": 7.666666666666667,
+      "indiv": 10.0
+    },
+    "Philosophy (PHILOS)": {
+      "lower": 192.0,
+      "upper": 49.57142857142857,
+      "grad": 14.285714285714286,
+      "teach": 10.0,
+      "indiv": 10.0
+    },
+    "Physiological Science (PHYSCI)": {
+      "lower": 419.0,
+      "upper": 43.714285714285715,
+      "grad": 20.0,
+      "teach": 10.0,
+      "indiv": 10.0
+    },
+    "Physics": {
+      "lower": 79.57142857142857,
+      "upper": 37.526315789473685,
+      "grad": 24.77777777777778,
+      "teach": 10.0,
+      "indiv": 10.0
+    },
+    "Physiology (PHYSIOL)": {
+      "indiv": 10.0
+    },
+    "Political Science (POL SCI)": {
+      "lower": 196.0,
+      "upper": 67.0,
+      "grad": 15.625,
+      "teach": 10.0,
+      "indiv": 10.0
+    },
+    "Polish (POLSH)": {
+      "upper": 12.5
+    },
+    "Portuguese (PORTGSE)": {
+      "lower": 19.0,
+      "upper": 30.0,
+      "grad": 15.0,
+      "teach": 100.0,
+      "indiv": 10.0
+    },
+    "Psychology (PSYCH)": {
+      "lower": 110.4,
+      "upper": 86.275,
+      "grad": 12.96551724137931,
+      "teach": 1.0,
+      "prof": 21.666666666666668,
+      "indiv": 10.0
+    },
+    "Psychiatry and Biobehavioral Sciences (PSYCTRY)": {
+      "grad": 20.0,
+      "prof": 10.0,
+      "indiv": 10.0
+    },
+    "Public Health (PUB HLT)": {
+      "upper": 10.5,
+      "prof": 20.0
+    },
+    "Public Policy (PUB PLC)": {
+      "upper": 30.0,
+      "grad": 27.533333333333335,
+      "teach": 1.0,
+      "prof": 15.0,
+      "indiv": 10.0
+    },
+    "Religion, Study of (RELIGN)": {
+      "lower": 26.0,
+      "upper": 40.625
+    },
+    "Romanian (ROMANIA)": {
+      "upper": 20.0
+    },
+    "Russian (RUSSN)": {
+      "lower": 33.0,
+      "upper": 13.272727272727273,
+      "grad": 10.0
+    },
+    "Scandinavian (SCAND)": {
+      "lower": 44.333333333333336,
+      "upper": 20.0,
+      "grad": 5.0,
+      "teach": 4.0,
+      "indiv": 10.0
+    },
+    "Science Education (SCI EDU)": {
+      "lower": 22.5,
+      "upper": 25.0
+    },
+    "Southeast Asian (SEASIAN)": {
+      "lower": 32.0
+    },
+    "Semitic": {
+      "upper": 10.0,
+      "grad": 15.0,
+      "indiv": 10.0
+    },
+    "Slavic (SLAVC)": {
+      "lower": 33.5,
+      "upper": 15.0,
+      "grad": 10.0,
+      "teach": 10.0,
+      "prof": 10.0,
+      "indiv": 10.0
+    },
+    "Society and Genetics (SOC GEN)": {
+      "lower": 70.0,
+      "upper": 53.57142857142857,
+      "teach": 1.0
+    },
+    "Social Science (SOC SC)": {
+      "lower": 20.0,
+      "teach": 1.0,
+      "prof": 25.0
+    },
+    "Social Thought (SOC THT)": {
+      "upper": 5.0
+    },
+    "Social Welfare (SOC WLF)": {
+      "upper": 200.0,
+      "grad": 19.61904761904762,
+      "teach": 5.0,
+      "prof": 20.0,
+      "indiv": 10.0
+    },
+    "Sociology (SOCIOL)": {
+      "lower": 110.0,
+      "upper": 79.75,
+      "grad": 16.8125,
+      "teach": 2.0,
+      "indiv": 10.0
+    },
+    "Spanish (SPAN)": {
+      "lower": 19.818181818181817,
+      "upper": 32.0,
+      "grad": 14.166666666666666,
+      "teach": 100.0,
+      "indiv": 10.0
+    },
+    "Serbian/Croatian (SRB CRO)": {
+      "upper": 15.0
+    },
+    "Statistics (STATS)": {
+      "lower": 111.25,
+      "upper": 72.2,
+      "grad": 26.25,
+      "teach": 6.0,
+      "prof": 25.666666666666668,
+      "indiv": 10.0
+    },
+    "Swahili": {
+      "lower": 15.0
+    },
+    "Thai": {
+      "lower": 25.0,
+      "upper": 25.0
+    },
+    "Theater": {
+      "lower": 21.0,
+      "upper": 25.51219512195122,
+      "grad": 12.555555555555555,
+      "teach": 4.0,
+      "prof": 10.84,
+      "indiv": 10.0
+    },
+    "Turkic Languages (TURKIC)": {
+      "upper": 25.0,
+      "grad": 15.0
+    },
+    "University Studies (UNIV ST)": {
+      "lower": 27.0
+    },
+    "Urban Planning (URBN PL)": {
+      "upper": 21.666666666666668,
+      "grad": 27.80952380952381,
+      "teach": 3.0,
+      "prof": 10.0,
+      "indiv": 10.0
+    },
+    "Vietnamese (VIETMSE)": {
+      "lower": 41.666666666666664,
+      "upper": 36.0
+    },
+    "World Arts and Cultures (WL ARTS)": {
+      "lower": 26.333333333333332,
+      "upper": 15.0,
+      "grad": 8.833333333333334,
+      "teach": 1.0,
+      "prof": 5.0,
+      "indiv": 10.0
+    },
+    "Yiddish (YIDDSH)": {
+      "upper": 25.0,
+      "indiv": 10.0
+    }
+  },
+  {
+    "Atmospheric and Oceanic Sciences (A&O SCI)": {
+      "lecture": 69.3125,
+      "lab": 64.0,
+      "seminar": 26.333333333333332,
+      "tutorial": 10.0,
+      "research_group": 10.0,
+      "unknown": 10.0
+    },
+    "Aerospace Studies (AERO ST)": {
+      "lecture": 28.75
+    },
+    "African American Studies (AF AMER)": {
+      "lecture": 36.2,
+      "seminar": 10.4,
+      "tutorial": 10.0
+    },
+    "African Studies (AFRC ST)": {
+      "tutorial": 10.0
+    },
+    "Afrikaans (AFRKAAN)": {
+      "lecture": 40.0,
+      "tutorial": 10.0
+    },
+    "American Indian Studies (AM IND)": {
+      "lecture": 31.4,
+      "seminar": 9.333333333333334,
+      "tutorial": 10.0
+    },
+    "Ancient Near East (AN N EA)": {
+      "lecture": 62.5,
+      "seminar": 15.0,
+      "tutorial": 10.0
+    },
+    "Anthropology (ANTHRO)": {
+      "lecture": 102.21739130434783,
+      "seminar": 11.458333333333334,
+      "tutorial": 10.0
+    },
+    "Applied Linguistics (APPLING)": {
+      "lecture": 22.0,
+      "seminar": 10.0,
+      "tutorial": 10.0
+    },
+    "Arabic": {
+      "lecture": 27.5,
+      "seminar": 35.0,
+      "tutorial": 10.0
+    },
+    "Architecture and Urban Design (ARCH&UD)": {
+      "lecture": 46.666666666666664,
+      "lab": 38.0,
+      "seminar": 10.0,
+      "tutorial": 10.0,
+      "unknown": 18.75
+    },
+    "Archaeology (ARCHEOL)": {
+      "lecture": 40.0,
+      "seminar": 15.0,
+      "tutorial": 10.0
+    },
+    "Armenian (ARMENIA)": {
+      "lecture": 22.857142857142858,
+      "tutorial": 10.0
+    },
+    "Art": {
+      "lecture": 42.666666666666664,
+      "seminar": 8.2,
+      "tutorial": 10.0,
+      "unknown": 13.909090909090908
+    },
+    "Arts and Architecture (ART&ARC)": {
+      "lecture": 20.0
+    },
+    "Art History (ART HIS)": {
+      "lecture": 76.53846153846153,
+      "seminar": 12.285714285714286,
+      "tutorial": 10.0
+    },
+    "Arts Education (ARTS ED)": {
+      "lecture": 20.0,
+      "seminar": 20.0
+    },
+    "Asian American Studies (ASIA AM)": {
+      "lecture": 47.84615384615385,
+      "seminar": 15.785714285714286,
+      "tutorial": 12.5
+    },
+    "Asian": {
+      "lecture": 48.0,
+      "seminar": 23.75,
+      "tutorial": 9.0
+    },
+    "American Sign Language (ASL)": {
+      "lecture": 27.666666666666668
+    },
+    "Astronomy (ASTR)": {
+      "lecture": 65.44444444444444,
+      "seminar": 17.5,
+      "tutorial": 15.0,
+      "unknown": 10.0
+    },
+    "Bioengineering (BIOENGR)": {
+      "lecture": 22.25,
+      "seminar": 15.166666666666666,
+      "tutorial": 8.714285714285714
+    },
+    "Bioinformatics (Graduate) (BIOINFO)": {
+      "lecture": 7.5,
+      "seminar": 21.0,
+      "tutorial": 10.0
+    },
+    "Biological Chemistry (BIOL CH)": {
+      "lecture": 10.0,
+      "lab": 20.0,
+      "seminar": 23.75,
+      "tutorial": 10.0
+    },
+    "Biomathematics (BIOMATH)": {
+      "lecture": 15.142857142857142,
+      "tutorial": 10.0
+    },
+    "Biostatistics (BIOSTAT)": {
+      "lecture": 34.30769230769231,
+      "lab": 7.0,
+      "seminar": 23.333333333333332,
+      "tutorial": 10.0,
+      "unknown": 5.0
+    },
+    "Biomedical Research (BMD RES)": {
+      "lecture": 50.0,
+      "seminar": 20.0
+    },
+    "Civil and Environmental Engineering (C&EE)": {
+      "lecture": 42.541666666666664,
+      "seminar": 31.0,
+      "tutorial": 10.0
+    },
+    "Central and East European Studies (C&EE ST)": {
+      "lecture": 25.0
+    },
+    "Computational and Systems Biology (C&S BIO)": {
+      "lecture": 10.0
+    },
+    "Conservation of Archaeological and Ethnographic Materials (CAEM)": {
+      "lecture": 9.0,
+      "lab": 6.0,
+      "tutorial": 10.0
+    },
+    "Chemical Engineering (CH ENGR)": {
+      "lecture": 53.90909090909091,
+      "seminar": 17.352941176470587,
+      "tutorial": 10.0
+    },
+    "Chemistry and Biochemistry (CHEM)": {
+      "lecture": 99.13953488372093,
+      "lab": 28.333333333333332,
+      "seminar": 143.955223880597,
+      "tutorial": 55.0,
+      "research_group": 150.0,
+      "unknown": 200.0
+    },
+    "Chicana and Chicano Studies (CHICANO)": {
+      "lecture": 49.59090909090909,
+      "seminar": 22.058823529411764,
+      "tutorial": 8.2
+    },
+    "Chinese (CHIN)": {
+      "lecture": 48.214285714285715,
+      "seminar": 10.0
+    },
+    "Civic Engagement (CIVIC)": {
+      "lecture": 100.0,
+      "seminar": 8.666666666666666
+    },
+    "Classics (CLASSIC)": {
+      "lecture": 96.375,
+      "seminar": 14.125,
+      "tutorial": 10.0
+    },
+    "Clusters (CLUSTER)": {
+      "lecture": 192.72727272727272
+    },
+    "Community Health Sciences (COM HLT)": {
+      "lecture": 24.846153846153847,
+      "seminar": 21.8,
+      "tutorial": 10.0,
+      "unknown": 27.5
+    },
+    "Comparative Literature (COM LIT)": {
+      "lecture": 41.5,
+      "seminar": 16.8,
+      "tutorial": 10.0,
+      "unknown": 20.0
+    },
+    "Computer Science (COM SCI)": {
+      "lecture": 79.76315789473684,
+      "lab": 28.0,
+      "seminar": 64.0,
+      "tutorial": 10.0
+    },
+    "Communication (COMM)": {
+      "lecture": 91.95652173913044,
+      "seminar": 22.428571428571427,
+      "tutorial": 1.0
+    },
+    "Program in Computing (COMPTNG)": {
+      "lecture": 45.0,
+      "seminar": 10.0
+    },
+    "Dance": {
+      "lecture": 18.333333333333332,
+      "lab": 14.0,
+      "seminar": 23.333333333333332,
+      "tutorial": 5.0,
+      "unknown": 15.565217391304348
+    },
+    "Design / Media Arts (DESMA)": {
+      "lecture": 300.0,
+      "seminar": 12.0,
+      "tutorial": 10.666666666666666,
+      "unknown": 20.23076923076923
+    },
+    "Digital Humanities (DGT HUM)": {
+      "seminar": 20.0,
+      "tutorial": 5.5
+    },
+    "Disability Studies (DIS STD)": {
+      "lecture": 60.0,
+      "seminar": 20.0
+    },
+    "Dutch": {
+      "lecture": 25.0,
+      "tutorial": 10.0
+    },
+    "Electrical and Computer Engineering (EC ENGR)": {
+      "lecture": 49.08163265306123,
+      "lab": 24.5,
+      "seminar": 27.8
+    },
+    "Economics (ECON)": {
+      "lecture": 110.8913043478261,
+      "seminar": 25.473684210526315,
+      "tutorial": 10.0
+    },
+    "Education (EDUC)": {
+      "lecture": 24.037037037037038,
+      "lab": 12.333333333333334,
+      "seminar": 23.952380952380953,
+      "tutorial": 11.166666666666666,
+      "unknown": 21.666666666666668
+    },
+    "Ecology and Evolutionary Biology (EE BIOL)": {
+      "lecture": 53.857142857142854,
+      "seminar": 18.0,
+      "tutorial": 8.2
+    },
+    "Electrical Engineering (EL ENGR)": {
+      "tutorial": 10.0
+    },
+    "English Composition (ENGCOMP)": {
+      "lecture": 15.555555555555555
+    },
+    "English (ENGL)": {
+      "lecture": 41.473684210526315,
+      "seminar": 12.88,
+      "tutorial": 8.2
+    },
+    "Engineering (ENGR)": {
+      "lecture": 99.25,
+      "seminar": 21.0,
+      "unknown": 1.0
+    },
+    "Environmental Health Sciences (ENV HLT)": {
+      "lecture": 22.642857142857142,
+      "seminar": 11.4,
+      "tutorial": 10.0,
+      "research_group": 10.0,
+      "unknown": 10.0
+    },
+    "Environment (ENVIRON)": {
+      "lecture": 42.9,
+      "seminar": 53.333333333333336,
+      "tutorial": 7.0
+    },
+    "Epidemiology (EPIDEM)": {
+      "lecture": 32.86666666666667,
+      "seminar": 13.5,
+      "tutorial": 7.75,
+      "unknown": 5.0
+    },
+    "Earth, Planetary, and Space Sciences (EPS SCI)": {
+      "lecture": 61.2,
+      "seminar": 16.375,
+      "tutorial": 10.0,
+      "research_group": 7.5
+    },
+    "English as A Second Language (ESL)": {
+      "lecture": 18.0
+    },
+    "Ethnomusicology (ETHNMUS)": {
+      "lecture": 53.785714285714285,
+      "lab": 13.5,
+      "seminar": 13.214285714285714,
+      "tutorial": 8.5,
+      "unknown": 16.160714285714285
+    },
+    "Filipino (FILIPNO)": {
+      "lecture": 46.5
+    },
+    "Film and Television (FILM TV)": {
+      "lecture": 48.74285714285714,
+      "lab": 17.25,
+      "seminar": 20.941176470588236,
+      "tutorial": 12.857142857142858,
+      "unknown": 19.0
+    },
+    "French (FRNCH)": {
+      "lecture": 27.333333333333332,
+      "seminar": 20.0,
+      "tutorial": 10.0
+    },
+    "Gender Studies (GENDER)": {
+      "lecture": 49.8,
+      "lab": 3.0,
+      "seminar": 5.0,
+      "tutorial": 10.0
+    },
+    "Geography (GEOG)": {
+      "lecture": 102.5,
+      "seminar": 20.625,
+      "tutorial": 10.0
+    },
+    "German": {
+      "lecture": 95.0,
+      "seminar": 18.333333333333332,
+      "tutorial": 10.0,
+      "unknown": 25.0
+    },
+    "Global Health (GLB HLT)": {
+      "lecture": 150.0
+    },
+    "Global Studies (GLBL ST)": {
+      "lecture": 300.0,
+      "seminar": 14.666666666666666
+    },
+    "Graduate Student Professional Development (GRAD PD)": {
+      "seminar": 12.0
+    },
+    "Greek": {
+      "lecture": 16.25,
+      "seminar": 15.0,
+      "tutorial": 10.0
+    },
+    "Gerontology (GRNTLGY)": {
+      "lecture": 16.0
+    },
+    "Hebrew": {
+      "lecture": 25.0,
+      "seminar": 10.0,
+      "tutorial": 10.0
+    },
+    "History (HIST)": {
+      "lecture": 95.58333333333333,
+      "seminar": 14.428571428571429,
+      "tutorial": 10.0
+    },
+    "Health Policy and Management (HLT POL)": {
+      "lecture": 26.944444444444443,
+      "seminar": 16.666666666666668,
+      "tutorial": 10.0
+    },
+    "Hungarian (HNGAR)": {
+      "lecture": 10.0
+    },
+    "Honors Collegium (HNRS)": {
+      "lecture": 33.333333333333336,
+      "seminar": 21.55
+    },
+    "Human Genetics (HUM GEN)": {
+      "lecture": 3.6666666666666665,
+      "tutorial": 10.0
+    },
+    "International and Area Studies (I A STD)": {
+      "lecture": 42.5,
+      "seminar": 17.0
+    },
+    "Indo-European Studies (I E STD)": {
+      "lecture": 15.5,
+      "tutorial": 10.0
+    },
+    "Indigenous Languages of the Americas (IL AMER)": {
+      "lecture": 13.333333333333334
+    },
+    "Indonesian (INDO)": {
+      "lecture": 25.0
+    },
+    "Information Studies (INF STD)": {
+      "lecture": 31.153846153846153,
+      "lab": 6.0,
+      "seminar": 22.5625,
+      "tutorial": 10.0,
+      "unknown": 26.0
+    },
+    "International Development Studies (INTL DV)": {
+      "lecture": 50.0,
+      "seminar": 17.0
+    },
+    "Iranian": {
+      "lecture": 26.666666666666668,
+      "seminar": 20.0,
+      "tutorial": 10.0
+    },
+    "Islamic Studies (ISLM ST)": {
+      "lecture": 35.0,
+      "seminar": 15.0,
+      "tutorial": 10.0
+    },
+    "Italian": {
+      "lecture": 25.0,
+      "seminar": 25.0,
+      "tutorial": 10.0
+    },
+    "Japanese (JAPAN)": {
+      "lecture": 61.5,
+      "seminar": 11.666666666666666
+    },
+    "Jewish Studies (JEWISH)": {
+      "lecture": 30.0
+    },
+    "Korean (KOREA)": {
+      "lecture": 52.61538461538461,
+      "seminar": 10.0
+    },
+    "Latin": {
+      "lecture": 22.0,
+      "tutorial": 10.0
+    },
+    "Latin American Studies (LATN AM)": {
+      "lecture": 3.0,
+      "tutorial": 10.0
+    },
+    "Labor and Workplace Studies (LBR&WS)": {
+      "lecture": 70.16666666666667,
+      "seminar": 40.0
+    },
+    "Lesbian, Gay, Bisexual, Transgender, and Queer Studies (LGBTQS)": {
+      "lecture": 13.5
+    },
+    "Life Sciences (LIFESCI)": {
+      "lecture": 275.54545454545456,
+      "lab": 720.0,
+      "seminar": 74.0
+    },
+    "Linguistics (LING)": {
+      "lecture": 47.0,
+      "lab": 10.0,
+      "seminar": 11.0,
+      "tutorial": 10.0,
+      "unknown": 30.0
+    },
+    "Middle Eastern Studies (M E STD)": {
+      "lecture": 33.333333333333336,
+      "seminar": 25.0
+    },
+    "Molecular and Medical Pharmacology (M PHARM)": {
+      "lecture": 13.0,
+      "lab": 20.0,
+      "seminar": 33.25,
+      "tutorial": 10.0
+    },
+    "Materials Science and Engineering (MAT SCI)": {
+      "lecture": 46.07692307692308,
+      "lab": 12.0,
+      "seminar": 21.666666666666668,
+      "tutorial": 10.0
+    },
+    "Mathematics (MATH)": {
+      "lecture": 56.16883116883117,
+      "lab": 30.0,
+      "seminar": 13.25,
+      "tutorial": 10.0
+    },
+    "Molecular, Cellular, and Integrative Physiology (MC&IP)": {
+      "lecture": 10.0,
+      "seminar": 10.0,
+      "tutorial": 10.0
+    },
+    "Molecular, Cell, and Developmental Biology (MCD BIO)": {
+      "lecture": 69.35714285714286,
+      "lab": 14.5,
+      "seminar": 13.0,
+      "tutorial": 10.0,
+      "unknown": 10.0
+    },
+    "Mechanical and Aerospace Engineering (MECH&AE)": {
+      "lecture": 50.65,
+      "seminar": 14.75,
+      "tutorial": 10.0
+    },
+    "Medical History (MED HIS)": {
+      "lecture": 20.0
+    },
+    "Management (MGMT)": {
+      "lecture": 68.5,
+      "seminar": 42.5,
+      "tutorial": 10.0,
+      "unknown": 42.9
+    },
+    "Management-Master of Financial Engineering (MGMTMFE)": {
+      "lecture": 45.0
+    },
+    "Management-Master of Science in Business Analytics (MGMTMSA)": {
+      "lecture": 45.0,
+      "seminar": 45.0
+    },
+    "Management-PhD (MGMTPHD)": {
+      "lecture": 15.0,
+      "seminar": 11.666666666666666
+    },
+    "Military Science (MIL SCI)": {
+      "lecture": 30.0
+    },
+    "Microbiology, Immunology, and Molecular Genetics (MIMG)": {
+      "lecture": 97.125,
+      "lab": 32.0,
+      "seminar": 10.75,
+      "tutorial": 7.75
+    },
+    "Molecular Biology (MOL BIO)": {
+      "lecture": 11.666666666666666,
+      "seminar": 20.0,
+      "tutorial": 10.0
+    },
+    "Molecular Toxicology (MOL TOX)": {
+      "lecture": 10.0,
+      "seminar": 20.0,
+      "tutorial": 10.0,
+      "research_group": 10.0
+    },
+    "Music History (MSC HST)": {
+      "lecture": 71.0,
+      "lab": 10.0,
+      "seminar": 19.166666666666668,
+      "tutorial": 1.0,
+      "unknown": 20.0
+    },
+    "Music Industry (MSC IND)": {
+      "seminar": 28.333333333333332,
+      "unknown": 12.0
+    },
+    "Music (MUSC)": {
+      "lecture": 38.54545454545455,
+      "lab": 17.5,
+      "seminar": 18.833333333333332,
+      "tutorial": 9.444444444444445,
+      "unknown": 16.75609756097561
+    },
+    "Musicology (MUSCLG)": {
+      "seminar": 10.428571428571429,
+      "tutorial": 10.0,
+      "unknown": 10.0
+    },
+    "Naval Science (NAV SCI)": {
+      "lecture": 19.333333333333332
+    },
+    "Neurobiology (NEURBIO)": {
+      "lecture": 18.5,
+      "seminar": 12.0,
+      "tutorial": 10.0
+    },
+    "Neurology (NEURLGY)": {
+      "tutorial": 2.0
+    },
+    "Neuroscience (Graduate) (NEURO)": {
+      "lecture": 23.5,
+      "seminar": 12.11111111111111,
+      "tutorial": 10.0,
+      "unknown": 13.0
+    },
+    "Neuroscience (NEUROSC)": {
+      "lecture": 100.66666666666667,
+      "seminar": 30.0
+    },
+    "Near Eastern Languages (NR EAST)": {
+      "lecture": 32.0,
+      "seminar": 7.5,
+      "tutorial": 10.0
+    },
+    "Nursing": {
+      "lecture": 46.95238095238095,
+      "seminar": 10.6,
+      "tutorial": 10.0,
+      "unknown": 25.5
+    },
+    "Oral Biology (ORL BIO)": {
+      "lecture": 20.0,
+      "seminar": 27.666666666666668,
+      "tutorial": 10.0
+    },
+    "Pathology and Laboratory Medicine (PATH)": {
+      "tutorial": 10.0,
+      "research_group": 10.0
+    },
+    "Physics and Biology in Medicine (PBMED)": {
+      "lecture": 9.75,
+      "seminar": 6.0,
+      "tutorial": 10.0,
+      "unknown": 1.0
+    },
+    "Philosophy (PHILOS)": {
+      "lecture": 76.92307692307692,
+      "seminar": 15.0,
+      "tutorial": 7.75
+    },
+    "Physiological Science (PHYSCI)": {
+      "lecture": 79.23076923076923,
+      "lab": 12.0,
+      "seminar": 14.142857142857142,
+      "tutorial": 10.0
+    },
+    "Physics": {
+      "lecture": 55.542857142857144,
+      "lab": 17.375,
+      "seminar": 16.25,
+      "tutorial": 22.142857142857142,
+      "unknown": 10.0
+    },
+    "Physiology (PHYSIOL)": {
+      "tutorial": 10.0
+    },
+    "Political Science (POL SCI)": {
+      "lecture": 91.3076923076923,
+      "seminar": 15.45,
+      "tutorial": 10.0,
+      "unknown": 16.666666666666668
+    },
+    "Polish (POLSH)": {
+      "lecture": 15.0,
+      "tutorial": 10.0
+    },
+    "Portuguese (PORTGSE)": {
+      "lecture": 21.571428571428573,
+      "seminar": 53.333333333333336,
+      "tutorial": 10.0
+    },
+    "Psychology (PSYCH)": {
+      "lecture": 90.30232558139535,
+      "lab": 19.77777777777778,
+      "seminar": 14.38888888888889,
+      "tutorial": 7.75,
+      "unknown": 18.9
+    },
+    "Psychiatry and Biobehavioral Sciences (PSYCTRY)": {
+      "lecture": 25.0,
+      "seminar": 18.333333333333332,
+      "tutorial": 10.0,
+      "unknown": 10.0
+    },
+    "Public Health (PUB HLT)": {
+      "lecture": 20.0,
+      "seminar": 20.0,
+      "tutorial": 1.0
+    },
+    "Public Policy (PUB PLC)": {
+      "lecture": 31.7,
+      "seminar": 11.75,
+      "tutorial": 10.0,
+      "unknown": 23.75
+    },
+    "Religion, Study of (RELIGN)": {
+      "lecture": 38.285714285714285,
+      "seminar": 33.75
+    },
+    "Romanian (ROMANIA)": {
+      "lecture": 20.0
+    },
+    "Russian (RUSSN)": {
+      "lecture": 19.142857142857142,
+      "seminar": 10.0
+    },
+    "Scandinavian (SCAND)": {
+      "lecture": 88.0,
+      "seminar": 12.25,
+      "tutorial": 10.0,
+      "unknown": 22.5
+    },
+    "Science Education (SCI EDU)": {
+      "seminar": 23.333333333333332
+    },
+    "Southeast Asian (SEASIAN)": {
+      "lecture": 32.0
+    },
+    "Semitic": {
+      "lecture": 12.5,
+      "tutorial": 10.0
+    },
+    "Slavic (SLAVC)": {
+      "lecture": 25.666666666666668,
+      "seminar": 11.666666666666666,
+      "tutorial": 10.0
+    },
+    "Society and Genetics (SOC GEN)": {
+      "lecture": 80.0,
+      "seminar": 19.2
+    },
+    "Social Science (SOC SC)": {
+      "seminar": 18.2
+    },
+    "Social Thought (SOC THT)": {
+      "seminar": 5.0
+    },
+    "Social Welfare (SOC WLF)": {
+      "lecture": 30.63157894736842,
+      "seminar": 5.0,
+      "tutorial": 10.0,
+      "unknown": 14.0
+    },
+    "Sociology (SOCIOL)": {
+      "lecture": 95.29629629629629,
+      "lab": 15.0,
+      "seminar": 18.526315789473685,
+      "tutorial": 10.0,
+      "unknown": 15.0
+    },
+    "Spanish (SPAN)": {
+      "lecture": 26.037037037037038,
+      "seminar": 46.666666666666664,
+      "tutorial": 10.0,
+      "research_group": 10.0,
+      "unknown": 15.0
+    },
+    "Serbian/Croatian (SRB CRO)": {
+      "lecture": 20.0,
+      "tutorial": 10.0
+    },
+    "Statistics (STATS)": {
+      "lecture": 61.86363636363637,
+      "seminar": 28.5,
+      "tutorial": 8.75
+    },
+    "Swahili": {
+      "lecture": 15.0
+    },
+    "Thai": {
+      "lecture": 25.0
+    },
+    "Theater": {
+      "lecture": 32.48,
+      "lab": 12.416666666666666,
+      "seminar": 16.8,
+      "tutorial": 11.666666666666666,
+      "unknown": 14.907407407407407
+    },
+    "Turkic Languages (TURKIC)": {
+      "lecture": 21.666666666666668
+    },
+    "University Studies (UNIV ST)": {
+      "seminar": 27.0
+    },
+    "Urban Planning (URBN PL)": {
+      "lecture": 28.210526315789473,
+      "lab": 36.0,
+      "seminar": 12.5,
+      "tutorial": 10.0,
+      "unknown": 30.0
+    },
+    "Vietnamese (VIETMSE)": {
+      "lecture": 40.25
+    },
+    "World Arts and Cultures (WL ARTS)": {
+      "lecture": 31.0,
+      "lab": 8.0,
+      "seminar": 11.0,
+      "tutorial": 10.0,
+      "unknown": 5.0
+    },
+    "Yiddish (YIDDSH)": {
+      "lecture": 25.0,
+      "tutorial": 10.0
+    }
+  },
+  {
+    "Atmospheric and Oceanic Sciences (A&O SCI)": {
+      "discussionSize": 27.88888888888889
+    },
+    "Aerospace Studies (AERO ST)": {
+      "discussionSize": 25.0
+    },
+    "African American Studies (AF AMER)": {
+      "discussionSize": 10.0
+    },
+    "American Indian Studies (AM IND)": {
+      "discussionSize": 15.0
+    },
+    "Ancient Near East (AN N EA)": {
+      "discussionSize": 15.652173913043478
+    },
+    "Anthropology (ANTHRO)": {
+      "discussionSize": 20.0
+    },
+    "Applied Linguistics (APPLING)": {
+      "discussionSize": 22.0
+    },
+    "Arabic": {
+      "discussionSize": 10.0
+    },
+    "Architecture and Urban Design (ARCH&UD)": {
+      "discussionSize": 23.823529411764707
+    },
+    "Archaeology (ARCHEOL)": {
+      "discussionSize": 25.0
+    },
+    "Art": {
+      "discussionSize": 16.0
+    },
+    "Art History (ART HIS)": {
+      "discussionSize": 15.0
+    },
+    "Asian American Studies (ASIA AM)": {
+      "discussionSize": 13.2
+    },
+    "Asian": {
+      "discussionSize": 11.571428571428571
+    },
+    "Astronomy (ASTR)": {
+      "discussionSize": 40.59090909090909
+    },
+    "Bioengineering (BIOENGR)": {
+      "discussionSize": 17.875
+    },
+    "Bioinformatics (Graduate) (BIOINFO)": {
+      "discussionSize": 3.0
+    },
+    "Biological Chemistry (BIOL CH)": {
+      "discussionSize": 5.0
+    },
+    "Biostatistics (BIOSTAT)": {
+      "discussionSize": 32.333333333333336
+    },
+    "Biomedical Research (BMD RES)": {
+      "discussionSize": 20.0
+    },
+    "Civil and Environmental Engineering (C&EE)": {
+      "discussionSize": 45.8421052631579
+    },
+    "Chemical Engineering (CH ENGR)": {
+      "discussionSize": 28.058823529411764
+    },
+    "Chemistry and Biochemistry (CHEM)": {
+      "discussionSize": 33.351612903225806
+    },
+    "Chicana and Chicano Studies (CHICANO)": {
+      "discussionSize": 29.3
+    },
+    "Chinese (CHIN)": {
+      "discussionSize": 25.703703703703702
+    },
+    "Civic Engagement (CIVIC)": {
+      "discussionSize": 100.0
+    },
+    "Classics (CLASSIC)": {
+      "discussionSize": 19.666666666666668
+    },
+    "Clusters (CLUSTER)": {
+      "discussionSize": 20.11764705882353
+    },
+    "Community Health Sciences (COM HLT)": {
+      "discussionSize": 26.666666666666668
+    },
+    "Comparative Literature (COM LIT)": {
+      "discussionSize": 20.0
+    },
+    "Computer Science (COM SCI)": {
+      "discussionSize": 39.75
+    },
+    "Communication (COMM)": {
+      "discussionSize": 25.5625
+    },
+    "Program in Computing (COMPTNG)": {
+      "discussionSize": 38.4375
+    },
+    "Dance": {
+      "discussionSize": 30.0
+    },
+    "Disability Studies (DIS STD)": {
+      "discussionSize": 14.0
+    },
+    "Electrical and Computer Engineering (EC ENGR)": {
+      "discussionSize": 34.833333333333336
+    },
+    "Economics (ECON)": {
+      "discussionSize": 30.99236641221374
+    },
+    "Education (EDUC)": {
+      "discussionSize": 26.5
+    },
+    "Ecology and Evolutionary Biology (EE BIOL)": {
+      "discussionSize": 18.645833333333332
+    },
+    "English Composition (ENGCOMP)": {
+      "discussionSize": 16.661290322580644
+    },
+    "English (ENGL)": {
+      "discussionSize": 19.155555555555555
+    },
+    "Engineering (ENGR)": {
+      "discussionSize": 23.151515151515152
+    },
+    "Environmental Health Sciences (ENV HLT)": {
+      "discussionSize": 17.5
+    },
+    "Environment (ENVIRON)": {
+      "discussionSize": 10.0625
+    },
+    "Epidemiology (EPIDEM)": {
+      "discussionSize": 44.57142857142857
+    },
+    "Earth, Planetary, and Space Sciences (EPS SCI)": {
+      "discussionSize": 26.41860465116279
+    },
+    "English as A Second Language (ESL)": {
+      "discussionSize": 17.5
+    },
+    "Ethnomusicology (ETHNMUS)": {
+      "discussionSize": 33.8235294117647
+    },
+    "Filipino (FILIPNO)": {
+      "discussionSize": 25.0
+    },
+    "Film and Television (FILM TV)": {
+      "discussionSize": 18.50877192982456
+    },
+    "French (FRNCH)": {
+      "discussionSize": 24.53846153846154
+    },
+    "Gender Studies (GENDER)": {
+      "discussionSize": 18.46153846153846
+    },
+    "Geography (GEOG)": {
+      "discussionSize": 26.818181818181817
+    },
+    "German": {
+      "discussionSize": 30.0
+    },
+    "Global Health (GLB HLT)": {
+      "discussionSize": 23.0
+    },
+    "Global Studies (GLBL ST)": {
+      "discussionSize": 24.916666666666668
+    },
+    "Greek": {
+      "discussionSize": 20.0
+    },
+    "Hebrew": {
+      "discussionSize": 25.0
+    },
+    "History (HIST)": {
+      "discussionSize": 19.333333333333332
+    },
+    "Health Policy and Management (HLT POL)": {
+      "discussionSize": 23.0
+    },
+    "Honors Collegium (HNRS)": {
+      "discussionSize": 42.5
+    },
+    "International and Area Studies (I A STD)": {
+      "discussionSize": 24.333333333333332
+    },
+    "Indo-European Studies (I E STD)": {
+      "discussionSize": 4.0
+    },
+    "Indonesian (INDO)": {
+      "discussionSize": 25.0
+    },
+    "Information Studies (INF STD)": {
+      "discussionSize": 35.0
+    },
+    "International Development Studies (INTL DV)": {
+      "discussionSize": 25.0
+    },
+    "Iranian": {
+      "discussionSize": 25.0
+    },
+    "Islamic Studies (ISLM ST)": {
+      "discussionSize": 5.0
+    },
+    "Italian": {
+      "discussionSize": 23.25
+    },
+    "Japanese (JAPAN)": {
+      "discussionSize": 22.566666666666666
+    },
+    "Korean (KOREA)": {
+      "discussionSize": 23.36
+    },
+    "Latin": {
+      "discussionSize": 20.0
+    },
+    "Labor and Workplace Studies (LBR&WS)": {
+      "discussionSize": 26.857142857142858
+    },
+    "Life Sciences (LIFESCI)": {
+      "discussionSize": 33.71830985915493
+    },
+    "Linguistics (LING)": {
+      "discussionSize": 20.357142857142858
+    },
+    "Middle Eastern Studies (M E STD)": {
+      "discussionSize": 10.0
+    },
+    "Materials Science and Engineering (MAT SCI)": {
+      "discussionSize": 40.294117647058826
+    },
+    "Mathematics (MATH)": {
+      "discussionSize": 44.44493392070485
+    },
+    "Molecular, Cell, and Developmental Biology (MCD BIO)": {
+      "discussionSize": 15.078125
+    },
+    "Mechanical and Aerospace Engineering (MECH&AE)": {
+      "discussionSize": 44.84375
+    },
+    "Management (MGMT)": {
+      "discussionSize": 63.05172413793103
+    },
+    "Management-Master of Financial Engineering (MGMTMFE)": {
+      "discussionSize": 45.0
+    },
+    "Microbiology, Immunology, and Molecular Genetics (MIMG)": {
+      "discussionSize": 21.47826086956522
+    },
+    "Molecular Biology (MOL BIO)": {
+      "discussionSize": 11.666666666666666
+    },
+    "Music History (MSC HST)": {
+      "discussionSize": 16.904761904761905
+    },
+    "Music (MUSC)": {
+      "discussionSize": 24.15
+    },
+    "Neuroscience (Graduate) (NEURO)": {
+      "discussionSize": 30.0
+    },
+    "Neuroscience (NEUROSC)": {
+      "discussionSize": 21.09090909090909
+    },
+    "Near Eastern Languages (NR EAST)": {
+      "discussionSize": 4.0
+    },
+    "Nursing": {
+      "discussionSize": 26.4
+    },
+    "Philosophy (PHILOS)": {
+      "discussionSize": 25.919354838709676
+    },
+    "Physiological Science (PHYSCI)": {
+      "discussionSize": 17.916666666666668
+    },
+    "Physics": {
+      "discussionSize": 36.285714285714285
+    },
+    "Political Science (POL SCI)": {
+      "discussionSize": 19.669642857142858
+    },
+    "Portuguese (PORTGSE)": {
+      "discussionSize": 15.0
+    },
+    "Psychology (PSYCH)": {
+      "discussionSize": 23.65
+    },
+    "Public Health (PUB HLT)": {
+      "discussionSize": 5.0
+    },
+    "Public Policy (PUB PLC)": {
+      "discussionSize": 10.0
+    },
+    "Religion, Study of (RELIGN)": {
+      "discussionSize": 9.368421052631579
+    },
+    "Russian (RUSSN)": {
+      "discussionSize": 18.666666666666668
+    },
+    "Scandinavian (SCAND)": {
+      "discussionSize": 22.0
+    },
+    "Southeast Asian (SEASIAN)": {
+      "discussionSize": 4.0
+    },
+    "Slavic (SLAVC)": {
+      "discussionSize": 6.3
+    },
+    "Society and Genetics (SOC GEN)": {
+      "discussionSize": 17.083333333333332
+    },
+    "Social Welfare (SOC WLF)": {
+      "discussionSize": 27.642857142857142
+    },
+    "Sociology (SOCIOL)": {
+      "discussionSize": 23.63809523809524
+    },
+    "Spanish (SPAN)": {
+      "discussionSize": 21.625
+    },
+    "Statistics (STATS)": {
+      "discussionSize": 46.127272727272725
+    },
+    "Theater": {
+      "discussionSize": 8.25
+    },
+    "Urban Planning (URBN PL)": {
+      "discussionSize": 30.0
+    },
+    "Vietnamese (VIETMSE)": {
+      "discussionSize": 25.0
+    },
+    "World Arts and Cultures (WL ARTS)": {
+      "discussionSize": 20.0
+    }
+  }
+]
