@@ -26,14 +26,23 @@ import json, sys
     ...
 ]
 '''
+# open files and get objects
 with open(sys.argv[1], 'r') as json_data:
 	size_fall = json.load(json_data)
 
+with open(sys.argv[2], 'r') as json_data:
+	size_winter = json.load(json_data)
+
+with open(sys.argv[3], 'r') as json_data:
+	size_spring = json.load(json_data)
+
 res = {}
-subjects = []
+depts = {}
+for d in (size_fall[0], size_winter[0], size_spring[0]):
+	depts.update(d)
 
 # initialize res list, containing elements that are maps from string (major) to map
-for subject in size_fall[0]:
+for subject in depts:
 	#subjects.append(subject)
 	res[subject] = {
 		"School": "",
@@ -82,7 +91,7 @@ for subject in size_fall[0]:
 		}
 	}
 
-
+# get fall data upper and lower division average class sizes
 for subject in size_fall[0]:
 	if "upper" in size_fall[0][subject]:
 		#print(subject, size_fall[0][subject]["upper"])
@@ -90,4 +99,25 @@ for subject in size_fall[0]:
 	if "lower" in size_fall[0][subject]:
 		#print(subject, size_fall[0][subject]["lower"])
 		res[subject]["Fall"]["Lower"]["avg_lecture_size"] = size_fall[0][subject]["lower"]
-print(json.dumps(res, indent=3))
+
+# get winter data upper and lower division average class sizes
+for subject in size_winter[0]:
+	if "upper" in size_winter[0][subject]:
+		#print(subject, size_fall[0][subject]["upper"])
+		res[subject]["Winter"]["Upper"]["avg_lecture_size"] = size_winter[0][subject]["upper"]
+	if "lower" in size_winter[0][subject]:
+		#print(subject, size_fall[0][subject]["lower"])
+		res[subject]["Winter"]["Lower"]["avg_lecture_size"] = size_winter[0][subject]["lower"]
+
+# get spring data upper and lower division average class sizes
+for subject in size_spring[0]:
+	if "upper" in size_spring[0][subject]:
+		#print(subject, size_fall[0][subject]["upper"])
+		res[subject]["Spring"]["Upper"]["avg_lecture_size"] = size_spring[0][subject]["upper"]
+	if "lower" in size_spring[0][subject]:
+		#print(subject, size_fall[0][subject]["lower"])
+		res[subject]["Spring"]["Lower"]["avg_lecture_size"] = size_spring[0][subject]["lower"]
+
+#print(json.dumps(res, indent=3))
+with open(sys.argv[4], 'w') as outfile:
+	json.dump(res, outfile, indent=3)
