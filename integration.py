@@ -29,14 +29,13 @@ import json, sys
 with open(sys.argv[1], 'r') as json_data:
 	size_fall = json.load(json_data)
 
-res = []
+res = {}
 subjects = []
 
 # initialize res list, containing elements that are maps from string (major) to map
 for subject in size_fall[0]:
-	subjects.append(subject)
-# for each subject, associate this key to empty map
-res = dict.fromkeys(subjects, {
+	#subjects.append(subject)
+	res[subject] = {
 		"School": "",
 		"NorthOrSouth": "",
 		"Fall": {
@@ -81,13 +80,14 @@ res = dict.fromkeys(subjects, {
 				"avg_lecture_length_week": 0.0
 			}
 		}
-	})
+	}
+
 
 for subject in size_fall[0]:
 	if "upper" in size_fall[0][subject]:
-		print(subject, size_fall[0][subject]["upper"])
+		#print(subject, size_fall[0][subject]["upper"])
 		res[subject]["Fall"]["Upper"]["avg_lecture_size"] = size_fall[0][subject]["upper"]
 	if "lower" in size_fall[0][subject]:
-		print(subject, size_fall[0][subject]["lower"])
+		#print(subject, size_fall[0][subject]["lower"])
 		res[subject]["Fall"]["Lower"]["avg_lecture_size"] = size_fall[0][subject]["lower"]
-print(res)
+print(json.dumps(res, indent=3))
