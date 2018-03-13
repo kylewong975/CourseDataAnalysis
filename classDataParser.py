@@ -20,7 +20,11 @@ subjectDiscussionSizes = {}
 
 # Extract course number from course name
 def getCourseNumber(course):
-	end = course.find("-") - 1
+	#edge case HIN-URD
+	if course.find("HIN-URD") != -1:
+		end = course.find("-", course.find("HIN-URD") + 6) - 1
+	else:
+		end = course.find("-") - 1
 	start = course.rfind(" ", 0, end - 1)
 	val = course[start+1:end]
 	courseNum = ''.join(list(filter(lambda x: x.isdigit(), val)))

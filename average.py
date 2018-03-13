@@ -54,9 +54,10 @@ output_contents.append(subjectDiscussionSizes)
 
 # Convert python results back to json file
 with open(sys.argv[2], 'w') as outfile:
-	for line in output_contents:
-		json.dump(line, outfile)
-		outfile.write("\n")
+	json.dump(output_contents, outfile, indent=3)
+	#for line in output_contents:
+	#	json.dump(line, outfile)
+	#	outfile.write("\n")
 
 import operator
 mean = lambda nums: sum(nums, 0.0) / len(nums)
