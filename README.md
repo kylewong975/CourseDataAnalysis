@@ -16,6 +16,8 @@ output JSON file. `./analyze.sh [inputFile] [outputFile]`
   script since I formatted the input JSON file slightly differently, temporarily, to accomodate json.load() in python.
 - To get the average class size per subject, also run `python average.py [inputFile] [outputFile]` or 
 `python3 average.py [inputFile] [outputFile]`
+- To get the output in a nicely formatted JSON used for data analysis and D3, run `python3 integration.py [fall_lecture_size inputFile] [winter_lecture_size inputFile] [spring_lecture_size inputFile] [outputFile]`
+- NOTE: this is primarily written for `python3` so there may be issues when running this in regular `python`
 
 ### Files
 - `classDataParser.py`: This Python script parses the course list JSON file and produces a JSON output with relevant 
@@ -25,3 +27,6 @@ information used for data analysis.
 a new JSON file that has a mapping between subject and average class size
 - `sampleCourses.json`: Because the official myUCLA courses JSON should be remain private, I made this sample JSON file 
 detailing possible JSON objects that were found in myUCLA courses and possible edge cases to ensure my parser is robust.
+- `ucla_colleges_parser.py`: Given a department/subject, returns the school it belongs to (College of Letters and Science, Engineering and Applied Science, etc)
+- `integration.py`: Script that reads in all the necessary computed data and integrates it into a final JSON format providing a summary of key data from courses
+- `classdata.json`: The final JSON file containing all the necessary information for data analysis
