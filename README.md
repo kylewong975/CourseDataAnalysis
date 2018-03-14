@@ -20,8 +20,8 @@ output JSON file. `./analyze.sh [inputFile] [outputFile]`
 - NOTE: this is primarily written for `python3` so there may be issues when running this in regular `python`
 
 ### Files
-- `classDataParser.py`: This Python script parses the course list JSON file and produces a JSON output with relevant 
-information used for data analysis.
+- `classDataParser.py`: Script that parses the course list JSON file and produces a JSON output with relevant 
+information used for data analysis
 - `analyze.sh`: A shell script that runs the Python script `classDataParser.py`
 - `average.py`: The Python script that takes in the parsed input JSON (from output of `classDataParser.py`) and generates 
 a new JSON file that has a mapping between subject and average class size
@@ -29,4 +29,5 @@ a new JSON file that has a mapping between subject and average class size
 detailing possible JSON objects that were found in myUCLA courses and possible edge cases to ensure my parser is robust.
 - `ucla_colleges_parser.py`: Given a department/subject, returns the school it belongs to (College of Letters and Science, Engineering and Applied Science, etc)
 - `integration.py`: Script that reads in all the necessary computed data and integrates it into a final JSON format providing a summary of key data from courses
-- `classdata.json`: The final JSON file containing all the necessary information for data analysis
+- `lecture_length.py`: Script that parses the course list JSON file and produces a JSON output with lecture length information
+- `finalData.json`: The final JSON file containing all the necessary information for data analysis
