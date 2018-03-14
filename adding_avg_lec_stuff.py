@@ -25,12 +25,12 @@ def addToJson(quarter):
 		avg_num_lec_week_upper = major[5]
 		avg_lecTime_week_upper = major[6]
 		if major_name in final_data:
-			final_data[major_name][quarter]['Upper']['avg_lecture_length_day'] = avg_lecTime_day_upper
-			final_data[major_name][quarter]['Upper']['avg_num_lectures_week'] = avg_num_lec_week_upper
-			final_data[major_name][quarter]['Upper']['avg_lecture_length_week'] = avg_lecTime_week_upper
-			final_data[major_name][quarter]['Lower']['avg_lecture_length_day'] = avg_lecTime_day_lower
-			final_data[major_name][quarter]['Lower']['avg_num_lectures_week'] = avg_num_lec_week_lower
-			final_data[major_name][quarter]['Lower']['avg_lecture_length_week'] = avg_lecTime_week_lower
+			final_data[major_name][quarter]['Upper']['avg_lecture_length_day'] = float(avg_lecTime_day_upper)
+			final_data[major_name][quarter]['Upper']['avg_num_lectures_week'] = float(avg_num_lec_week_upper)
+			final_data[major_name][quarter]['Upper']['avg_lecture_length_week'] = float(avg_lecTime_week_upper)
+			final_data[major_name][quarter]['Lower']['avg_lecture_length_day'] = float(avg_lecTime_day_lower)
+			final_data[major_name][quarter]['Lower']['avg_num_lectures_week'] = float(avg_num_lec_week_lower)
+			final_data[major_name][quarter]['Lower']['avg_lecture_length_week'] = float(avg_lecTime_week_lower)
 
 for i in ['Fall', 'Winter', 'Spring']:
 	addToJson(i)
