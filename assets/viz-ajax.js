@@ -11,14 +11,21 @@
 // Lecture length (y-axis) vs size of lecture (x-axis)
 d3.json("assets/data.json", function(error, data) {
 	if (error) return;
-	console.log(data);
-	makeVis(data);
+	let arr = []
+	for (var i in data) {
+		data[i]['Department'] = i;
+		arr.push(data[i]);
+	}
+	//console.log(data);
+	makeVis(arr);
 });
 
 var makeVis = function(data) {
+	//for (var i in data) console.log(data[i]);
+	console.log(data);
 	var margin = { top: 20, right: 20, bottom: 30, left: 40 },
 			width = 960 - margin.left - margin.right,
-			height = 500 - margin.top - margin.bottom;
+			height = 600 - margin.top - margin.bottom;
 
 	var canvas = d3.select('#vis-container').append('svg')
 		.attr('width', width + margin.left + margin.right)
@@ -74,17 +81,17 @@ var makeVis = function(data) {
 
 	// Tooltip mouseover event handler
 	var tipMouseover = function(d) {
-		var html = "hello";
+		var html = "Department: " + d.Department + "<br/>" + "Average Lecture Length: " + d.Fall.Lower.avg_lecture_length_week + "<br/>" + "Average Lecture Size: " + d.Fall.Lower.avg_lecture_size;
 		tooltip.html(html)
 			.style('left', (d3.event.pageX + 15) + 'px')
 			.style('top', (d3.event.pageY - 28) + 'px')
 			.transition()
 			.duration(200) // 200ms
-			.style('opacity', 0.9)
+			.style('opacity', 0.9);
 	};
 
 	// Tooltip mouseout event handler
-	var tipMouseover = function(d) {
+	var tipMouseout = function(d) {
 		tooltip.transition()
 			.duration(300)
 			.style('opacity', 0);
@@ -93,7 +100,12 @@ var makeVis = function(data) {
 	// Add data points
 	canvas.selectAll('dot')
 		.data(data)
-		.enter().append('circle')
+		.enter()
+		.append('circle')
 		.attr('class', 'dot')
-		.attr('r', 5.5); // radius size
+		.attr('r', 5.5) // radius size
+		.attr('cx', function(d) { return 960 / (500 + margin.right) * d.Fall.Lower.avg_lecture_size })
+		.attr('cy', function(d) { return ((600 - margin.top - margin.bottom) / 600) * (600 - d.Fall.Lower.avg_lecture_length_week) })
+		.on("mouseover", tipMouseover)
+    .on("mouseout", tipMouseout);
 }
