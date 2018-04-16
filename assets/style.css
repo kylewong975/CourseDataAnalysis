@@ -20,7 +20,7 @@ path {
   stroke: none;
 }
 
-.tooltip: {
+.tooltip {
   position: absolute;
   font-size: 12px;
   width: auto;
@@ -30,3 +30,7 @@ path {
 }
 
 /* Custom CSS */
+.tooltip-box {
+  padding: 5px;
+  color: white;
+}

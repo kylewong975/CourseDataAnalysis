@@ -11,9 +11,8 @@
 // Lecture length (y-axis) vs size of lecture (x-axis)
 d3.json("assets/data.json", function(error, data) {
 	if (error) return;
-	let arr = []
+	let arr = [];
 	for (var i in data) {
-		data[i]['Department'] = i;
 		arr.push(data[i]);
 	}
 	//console.log(data);
@@ -22,7 +21,6 @@ d3.json("assets/data.json", function(error, data) {
 
 var makeVis = function(data) {
 	//for (var i in data) console.log(data[i]);
-	console.log(data);
 	var margin = { top: 20, right: 20, bottom: 30, left: 40 },
 			width = 960 - margin.left - margin.right,
 			height = 600 - margin.top - margin.bottom;
@@ -81,7 +79,8 @@ var makeVis = function(data) {
 
 	// Tooltip mouseover event handler
 	var tipMouseover = function(d) {
-		var html = "Department: " + d.Department + "<br/>" + "Average Lecture Length: " + d.Fall.Lower.avg_lecture_length_week + "<br/>" + "Average Lecture Size: " + d.Fall.Lower.avg_lecture_size;
+		var color = colorScale(d.School);
+		var html = "<div class='tooltip-box' style='background-color: " + color + ";'> Major: " + d.major + "<br/>" + "Average Lecture Length: " + d.Fall.Lower.avg_lecture_length_week + "<br/>" + "Average Lecture Size: " + d.Fall.Lower.avg_lecture_size + "</div>";
 		tooltip.html(html)
 			.style('left', (d3.event.pageX + 15) + 'px')
 			.style('top', (d3.event.pageY - 28) + 'px')
