@@ -34,7 +34,7 @@ var makeVis = function(data) {
 		.attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 
 	// Define scales
-	//var colorScale = d3.scale.category10();
+	var colorScale = d3.scale.category10();
 	var xScale = d3.scale.linear()
 		.domain([0, 500]) // TODO: set a better bound through the max function
 		.range([0, width])
@@ -106,6 +106,7 @@ var makeVis = function(data) {
 		.attr('r', 5.5) // radius size
 		.attr('cx', function(d) { return 960 / (500 + margin.right) * d.Fall.Lower.avg_lecture_size })
 		.attr('cy', function(d) { return ((600 - margin.top - margin.bottom) / 600) * (600 - d.Fall.Lower.avg_lecture_length_week) })
+		.style("fill", function(d) { return colorScale(d.School); })
 		.on("mouseover", tipMouseover)
     .on("mouseout", tipMouseout);
 }
