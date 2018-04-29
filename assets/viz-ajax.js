@@ -3,10 +3,16 @@
 // just opening index.html with viz-ajax.js will give cross origin error due to security issues
 // Run the following command to open a server
 // python -m SimpleHTTPServer 8080
+// python3 -m http.server for Python3
 
 // ` ` string templating
 // var x = 5;
 // var m = `${x} feet`; // 5 feet
+
+// FILTERS (checkboxes input with an onclick function)
+// North, South Campus
+// Upper, Lower Division
+// School (Letters and Science, Engineering, etc)
 
 // Lecture length (y-axis) vs size of lecture (x-axis)
 d3.json("assets/data.json", function(error, data) {
